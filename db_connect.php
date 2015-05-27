@@ -37,7 +37,8 @@ class DB_CONNECT {
     /**
      * Function to close db connection
      */
-    function close() {
+    function close() 
+    {
         // closing db connection
         mysql_close();
     }
