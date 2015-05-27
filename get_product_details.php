@@ -17,8 +17,8 @@ and open the template in the editor.
 <?php
  
 /*
- * Following code will get single leraar details
- * A leraar is identified by leraar id (ID)
+ * Following code will get single Leraar details
+ * A Leraar is identified by Leraar id (ID)
  */
  
 // array for JSON response
@@ -48,12 +48,12 @@ if (isset($_GET["submit"])) {
 
     $idNumber = array_values($arrayParts)[1];
     
-     if($table == "leraar"){
+     if($table == "Leraar"){
     
          $validInput = 1;
          
-    // get a leraar from leraar table
-    $result = mysql_query('SELECT * FROM leraar WHERE ID = '. $idNumber .' ');
+    // get a Leraar from Leraar table
+    $result = mysql_query('SELECT * FROM Leraar WHERE ID = '. $idNumber .' ');
  
     if (!empty($result)) {
         
@@ -62,36 +62,36 @@ if (isset($_GET["submit"])) {
  
             $result = mysql_fetch_array($result);
  
-            $leraar = array();
-            $leraar["ID"] = $result["ID"];
-            $leraar["Naam"] = $result["Naam"];
-//            $leraar["price"] = $result["price"];
-//            $leraar["description"] = $result["description"];
-//            $leraar["created_at"] = $result["created_at"];
-//            $leraar["updated_at"] = $result["updated_at"];
+            $Leraar = array();
+            $Leraar["ID"] = $result["ID"];
+            $Leraar["Naam"] = $result["Naam"];
+//            $Leraar["price"] = $result["price"];
+//            $Leraar["description"] = $result["description"];
+//            $Leraar["created_at"] = $result["created_at"];
+//            $Leraar["updated_at"] = $result["updated_at"];
 //            // success
             $response["success"] = 1;
  
             // user node
-            $response["leraar"] = array();
+            $response["Leraar"] = array();
  
-            array_push($response["leraar"], $leraar);
+            array_push($response["Leraar"], $Leraar);
  
             // echoing JSON response
             echo json_encode($response);
         } else {
-            // no leraar found
+            // no Leraar found
             $response["success"] = 0;
-            $response["message"] = "No leraar found";
+            $response["message"] = "No Leraar found";
  
             // echo no users JSON
             echo json_encode($response);
         }
     } else {
-        // no leraar found
+        // no Leraar found
     
         $response["success"] = 0;
-        $response["message"] = "No leraar found2";
+        $response["message"] = "No Leraar found2";
         
  
         // echo no users JSON
@@ -99,12 +99,12 @@ if (isset($_GET["submit"])) {
     }
      }
      
-          if($table == "lokaal"){
+          if($table == "Lokaal"){
               
               $validInput = 1;
     
-    // get a lokaal from lokaal table
-    $result = mysql_query('SELECT * FROM lokaal WHERE ID = '. $idNumber .' ');
+    // get a Lokaal from Lokaal table
+    $result = mysql_query('SELECT * FROM Lokaal WHERE ID = '. $idNumber .' ');
  
     if (!empty($result)) {
         
@@ -113,36 +113,36 @@ if (isset($_GET["submit"])) {
  
             $result = mysql_fetch_array($result);
  
-            $lokaal = array();
-            $lokaal["ID"] = $result["ID"];
-            $lokaal["Nummer"] = $result["Nummer"];
-            $lokaal["Functie"] = $result["Functie"];
-//            $lokaal["description"] = $result["description"];
-//            $lokaal["created_at"] = $result["created_at"];
-//            $lokaal["updated_at"] = $result["updated_at"];
+            $Lokaal = array();
+            $Lokaal["ID"] = $result["ID"];
+            $Lokaal["Nummer"] = $result["Nummer"];
+            $Lokaal["Functie"] = $result["Functie"];
+//            $Lokaal["description"] = $result["description"];
+//            $Lokaal["created_at"] = $result["created_at"];
+//            $Lokaal["updated_at"] = $result["updated_at"];
 //            // success
             $response["success"] = 1;
  
             // user node
-            $response["lokaal"] = array();
+            $response["Lokaal"] = array();
  
-            array_push($response["lokaal"], $lokaal);
+            array_push($response["Lokaal"], $Lokaal);
  
             // echoing JSON response
             echo json_encode($response);
         } else {
-            // no lokaal found
+            // no Lokaal found
             $response["success"] = 0;
-            $response["message"] = "No lokaal found";
+            $response["message"] = "No Lokaal found";
  
             // echo no users JSON
             echo json_encode($response);
         }
     } else {
-        // no lokaal found
+        // no Lokaal found
     
         $response["success"] = 0;
-        $response["message"] = "No lokaal found2";
+        $response["message"] = "No Lokaal found2";
         
  
         // echo no users JSON
