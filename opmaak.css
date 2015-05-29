@@ -1,0 +1,141 @@
+body {
+    font-family: helvetica;
+    text-align: left;
+    margin: 0;
+    padding: 0px;
+    background-image: url('blur wallpaper.jpg');
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 12px;
+    left:1100px;
+}
+
+#menu li {
+    display: inline;
+    margin: 4px;
+    padding: 5px 20px 5px 20px;
+    float: right;  
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu ul li a{
+    display: block;
+    width: 100px;
+}
+
+.form {
+    text-align: center;
+    margin: 0;
+    width: 260px;
+    position: fixed;
+    top: 170px;
+    left: 500px;
+    padding:2px;
+}
+
+#submit {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: rosybrown;
+    cursor: pointer;
+}
+
+#gebruiker {
+    color: grey;
+    text-align: left;
+    font-size: 13px;
+    width: 244px;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+}
+
+#gebruiker:hover {
+    box-shadow: 0px 1px 7px 0px #F0F0F0;
+}
+
+#wachtwoord:hover {
+    box-shadow: 0px 1px 7px 0px #F0F0F0;
+}
+
+#submit:hover {
+    box-shadow: 0px 1px 7px 0px #F0F0F0;
+}
+
+#wachtwoord {
+    color: grey;
+    text-align: left;
+    /*    font-weight: bold;*/
+    font-size: 13px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    background-color: white; 
+}
+
+#berichtje {
+    position: fixed;
+    top: 130px;
+    left:795px;
+    color: white;
+    text-align: left;
+    height:20px;
+    width:240px;
+}
+
+#berichtje2 {
+    position: fixed;
+    top: 70px;
+    left:200px;
+    color: white;
+    text-align: left;
+    height:20px;
+    width:240px;
+}
+
+/* unvisited link */
+a:link {
+    color: rosybrown;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* visited link */
+a:visited {
+    color: rosybrown;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: dimgrey;
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 1px;
+}
+
+/* selected when clicking link */
+a:active {
+    color: grey;
+    text-decoration: none;
+}
+
