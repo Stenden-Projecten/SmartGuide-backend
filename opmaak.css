@@ -30,7 +30,6 @@ body {
 }
 
 .form {
-    text-align: center;
     margin: 0;
     width: 260px;
     position: fixed;
@@ -51,6 +50,40 @@ body {
     padding: 0;
     background-color: rosybrown;
     cursor: pointer;
+}
+
+#text {
+    position: relative;
+    top: 100px;
+    left:100px;
+    color: white;
+    text-align: left;
+    height:90px;
+    width: 550px;
+}
+
+/*overige rijen*/
+trIn{
+    border:2px solid snow;
+}
+
+/*rij erboven met omschrijving*/
+trOut {
+    border:2px solid snow;
+}
+
+#t1 {
+    border-width: 6px;
+    border-style: solid;
+    color: dimgrey;
+    text-align: left;
+    font-size: 13px;
+    width: 73%;
+    height: 30px;
+    border-color:#C0C0C0;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0;
 }
 
 #gebruiker {
@@ -95,7 +128,7 @@ body {
 #berichtje {
     position: fixed;
     top: 130px;
-    left:795px;
+    left:530px;
     color: white;
     text-align: left;
     height:20px;
@@ -104,8 +137,8 @@ body {
 
 #berichtje2 {
     position: fixed;
-    top: 70px;
-    left:200px;
+    top: 100px;
+    left:530px;
     color: white;
     text-align: left;
     height:20px;
@@ -138,4 +171,3 @@ a:active {
     color: grey;
     text-decoration: none;
 }
-

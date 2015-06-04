@@ -13,6 +13,9 @@
                 <li>
                     <a href="logout_page.php">log out</a>
                 </li>
+                <li>
+                    <a href="change_db_page.php">Work on database</a>
+                </li>
             </ul>
         </div>
 
@@ -25,18 +28,20 @@
 
             if (empty($_POST['naam']) && empty($_POST['pass']))
             {
-                echo "Je moet alle velden invullen";
+                $berichtje = "Je moet alle velden invullen";
+                echo "<div id='berichtje'> ".$berichtje."</div>";
             } else
             {
                 //database connectie maken   
                 $DBconnect = mysql_connect("localhost", "root", "") OR DIE("unable to connect");
-                mysql_select_db("Login", $DBconnect) OR DIE("could not find database: " . mysql_error());
+                $dbMessage = "could not find database: ";
+                mysql_select_db("smartguide", $DBconnect) OR DIE("<div id='berichtje'> ".$dbMessage. mysql_error()."</div>");
 
                 //hash het wachtwoord                
                 $pass = hash("md5",$_POST["pass"]);
                 
                 // check of ze in database staan
-                $sql = "SELECT * FROM users WHERE naam='$naam' and pass='$pass'";
+                $sql = "SELECT * FROM login WHERE naam='$naam' and pass='$pass'";
                 $result = mysql_query($sql, $DBconnect) OR DIE("query mislukt");
                 $count = mysql_num_rows($result);
 
