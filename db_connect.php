@@ -15,7 +15,7 @@ class DB_CONNECT {
     }
  
     function connect() {
-        $this->con = mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
+        $this->con = @mysqli_connect(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
         
         if(mysqli_connect_errno()) {
             $this->error = "SQL error:" . mysqli_connect_error();
