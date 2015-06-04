@@ -33,7 +33,7 @@ if($db->error !== null) {
             array_push($leraren, array($naam, $vakken));
         }
 
-        if(count($leraren) > 0) $response["leraren"] = $leraren
+        if(count($leraren) > 0) $response["leraren"] = $leraren;
 
         $stmt->close();
 
@@ -47,7 +47,7 @@ if($db->error !== null) {
             array_push($lokalen, array($nummer, $functie));
         }
 
-        if(count($lokalen) > 0) $response["lokalen"] = $lokalen
+        if(count($lokalen) > 0) $response["lokalen"] = $lokalen;
 
         $stmt->close();
 
