@@ -30,7 +30,7 @@ if($db->error !== null) {
 
         $leraren = array();
         while ($stmt->fetch()) {
-            array_push($leraren, array($naam => $vakken));
+            $leraren[$naam] = $vakken;
         }
 
         if(count($leraren) > 0) $response["leraren"] = $leraren;
@@ -44,7 +44,7 @@ if($db->error !== null) {
 
         $lokalen = array();
         while ($stmt->fetch()) {
-            array_push($lokalen, array($nummer => $functie));
+            $lokalen[$nummer] = $functie;
         }
 
         if(count($lokalen) > 0) $response["lokalen"] = $lokalen;
