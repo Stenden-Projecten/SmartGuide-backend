@@ -76,7 +76,6 @@
                         <td>
                             <input type="password" style="padding-left: 5px;" name="pass" placeholder="Wachtwoord" id="wachtwoord"/> 
                             <input type="submit" value="inloggen" name="send" id="submit"/>
-
                         </td>
                     </tr>
                 </table>

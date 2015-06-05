@@ -36,8 +36,14 @@
                     echo "<tr id='trOut'><th id='thUp'>ID</th><th>Naam</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
+                        echo "<form method='GET' action='update_leraar.php'>";
                         echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
-                        echo "<td>{$row['Naam']}</td> <td><input type='text' value='{$row['Naam']}' size='15'></td> <td><a href = 'update_leraar.php?id={$row['ID']}&Type=LeraarNaam&Naam={$row['Naam']}'>update</a></td></tr>";
+                        echo "<input type='hidden' name='id' value='{$row['ID']}'/>";
+                        echo "<input type='hidden' type='LeraarNaam' value='{$row['Naam']}'/>";
+
+                        echo "<td>{$row['Naam']}</td><td><input type='text' value='{$row['Naam']}' name='Naam' size='15'></td><td>"
+                        . "<input type='submit' value='update' name='submit' id='button'/></td></tr>";
+                        echo "</form>";
                     }
                     break;
 
@@ -47,20 +53,32 @@
                     echo "<tr id='trOut'><th id='thUp'>ID</th><th>Naam</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
+                        echo "<form method='GET' action='update_vak.php'>";
                         echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
-                        echo "<td>{$row['Naam']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_vak.php?id={$row['ID']}&Type=VakNaam&Naam={$row['Naam']}'>update</a></td></tr>";
+                        echo "<input type='hidden' name='id' value='{$row['ID']}'/>";
+                        echo "<input type='hidden' type='VakNaam' value='{$row['Naam']}'/>";
+
+                        echo "<td>{$row['Naam']}</td><td><input type='text' value='{$row['Naam']}' name='Naam' size='10'></td><td>"
+                        . "<input type='submit' value='update' name='submit' id='button'/></td></tr>";
+                        echo "</form>";
                     }
                     break;
 
                 case 'Locatie':
                     $query = mysql_query("select * from lokaal", $DBconnect);
                     echo "<table id='t3' border='1'>";
-                    echo "<tr id='trOut'><th id='thUp'>ID</th><th></th><th>Nummer</th><th></th><th></th><th>Functie</th><th></th></tr>";
+                    echo "<tr id='trOut'><th id='thUp'>ID</th><th></th><th>Nummer</th><th></th><th>Functie</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
+                        echo "<form method='GET' action='update_locatie.php'>";
                         echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
-                        echo "<td>{$row['Nummer']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_locatie.php?id={$row['ID']}&Type=LocatieNummer&Nummer={$row['Nummer']}'>update</a></td><br/>";
-                        echo "<td>{$row['Functie']}</td> <td><textarea rows='1' cols='10'></textarea></td> <td><a href = 'update_locatie.php?id={$row['ID']}&Type=LocatieFunctie&Functie={$row['Functie']}'>update</a></td></tr>";
+                        echo "<input type='hidden' name='id' value='{$row['ID']}'/>";
+                        echo "<input type='hidden' type='LoctieNummer' value='{$row['Nummer']}'/>";
+                        echo "<input type='hidden' type='LocatieFunctie' value='{$row['Functie']}'/>";
+
+                        echo "<td>{$row['Nummer']}</td><td><input type='text' value='{$row['Nummer']}' name='Nummer' size='10'></td><br/>";
+                        echo "<td>{$row['Functie']}</td><td><textarea rows='1' cols='10' value='{$row['Functie']} name='Functie'></textarea></td><td><button>update</button></td></tr>";
+                        echo "</form>";
                     }
                     echo "</table>";
                     break;
@@ -71,8 +89,13 @@
                     echo "<tr id='trOut'><th id='thUp'>ID</th><th>Tekst</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
+                        echo "<form method='GET' action='update_qrcode.php'>";
                         echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
-                        echo "<td>{$row['Tekst']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_qrcode.php?id={$row['ID']}&Type=QrcodeTekst&Tekst={$row['Tekst']}'>update</a></td</tr>";
+                        echo "<input type='hidden' name='id' value='{$row['ID']}'/>";
+                        echo "<input type='hidden' type='QrcodeTekst' value='{$row['Tekst']}'/>";
+
+                        echo "<td>{$row['Tekst']}</td><td><input type='text' name='Tekst' size='10'></td><td><button>update</button></td</tr>";
+                        echo "</form>";
                     }
                     break;
             }
