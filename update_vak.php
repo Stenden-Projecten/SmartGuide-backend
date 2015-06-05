@@ -8,8 +8,8 @@
     <body>
         
         <?php
-        $ID = $_POST['ID'];
-        $Naam = $_POST['Naam'];
+        $ID = $_GET['id'];
+        $Naam = $_GET['Naam'];
 
         mysql_connect("localhost", "root", "");
         @mysql_select_db('smartguide') or die("Unable to select database");

@@ -8,13 +8,13 @@
     <body>
         
         <?php
-        $ID = $_POST['ID'];
-        $Naam = $_POST['Naam'];
-        $Functie = $_POST['Functie'];
+        $ID = $_GET['id'];
+        $Nummer = $_GET['Nummer'];
+        $Functie = $_GET['Functie'];
 
         mysql_connect("localhost", "root", "");
-        @mysql_select_db('smartguide') or die("Unable to select database");
-        $query = "UPDATE locatie SET ID='$ID', Nummer='$Nummer', Functie='$Functie'";
+        mysql_select_db('smartguide') or die("Unable to select database");
+        $query = "UPDATE lokaal SET ID='$ID', Nummer='$Nummer', Functie='$Functie'";
         mysql_query($query) OR DIE(mysql_error());
         echo "De bug is geupdated";
         mysql_close();
