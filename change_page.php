@@ -32,51 +32,47 @@
             {
                 case 'Leraar':
                     $query = mysql_query("select * from leraar", $DBconnect);
+                    echo "<table id='t1' border='1'>";
+                    echo "<tr id='trOut'><th id='thUp'>ID</th><th>Naam</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
-                        echo "<div id='text'>";
-                        //id=<?php echo $_GET['id']; ?" method="POST"
-                        //echo "ID: {$row['ID']} <a href = "update_leraar.php?id=<?php echo $_GET['id']; ?" method="POST"</a><br/>";
-                        echo "ID: {$row['ID']} <a href = 'update_leraar.php?id={$row['ID']}&Type=LeraarID'>update</a><br/>";
-                        echo "Naam: {$row['Naam']} <a href = 'update_leraar.php?id={$row['ID']}&Type=LeraarNaam'>update</a>";
-                        echo "</div>";
+                        echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
+                        echo "<td>{$row['Naam']}</td> <td><input type='text' value='{$row['Naam']}' size='15'></td> <td><a href = 'update_leraar.php?id={$row['ID']}&Type=LeraarNaam&Naam={$row['Naam']}'>update</a></td></tr>";
                     }
                     break;
 
                 case 'Vak':
                     $query = mysql_query("select * from vak", $DBconnect);
+                    echo "<table id='t2' border='1'>";
+                    echo "<tr id='trOut'><th id='thUp'>ID</th><th>Naam</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
-                        echo "<div id='text'>";
-                        echo "ID: {$row['ID']} <a href = 'Updated.php?id={$row['ID']}&Type=VakID'>update</a><br/>";
-                        echo "Naam: {$row['Naam']} <a href = 'Updated.php?id={$row['ID']}&Type=VakNaam'>update</a>";
-                        echo "</div>";
+                        echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
+                        echo "<td>{$row['Naam']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_vak.php?id={$row['ID']}&Type=VakNaam&Naam={$row['Naam']}'>update</a></td></tr>";
                     }
                     break;
 
                 case 'Locatie':
                     $query = mysql_query("select * from lokaal", $DBconnect);
-                    echo "<table id='t1'>";
-                    echo "<tr id='trOut'><th>ID</th><th>Naam</th><th>Functie</th></tr>";
+                    echo "<table id='t3' border='1'>";
+                    echo "<tr id='trOut'><th id='thUp'>ID</th><th></th><th>Nummer</th><th></th><th></th><th>Functie</th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
-                        //echo "<div id='text'>";
-                        echo "<tr id='trIn'><td>{$row['ID']} <a href = '?id={$row['ID']}&Type=LocatieID'>update</a></td><br/>";
-                        echo "<td>{$row['Nummer']} <a href = '?id={$row['ID']}&Type=LocatieNummer'>update</a></td><br/>";
-                        echo "<td>{$row['Functie']} <a href = '?id={$row['ID']}&Type=LocatieFunctie'>update</a></td></tr>";
-                        //echo "</div>";
+                        echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
+                        echo "<td>{$row['Nummer']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_locatie.php?id={$row['ID']}&Type=LocatieNummer&Nummer={$row['Nummer']}'>update</a></td><br/>";
+                        echo "<td>{$row['Functie']}</td> <td><textarea rows='1' cols='10'></textarea></td> <td><a href = 'update_locatie.php?id={$row['ID']}&Type=LocatieFunctie&Functie={$row['Functie']}'>update</a></td></tr>";
                     }
                     echo "</table>";
                     break;
 
                 case 'Qrcode':
                     $query = mysql_query("select * from QRCode", $DBconnect);
+                    echo "<table id='t4' border='1'>";
+                    echo "<tr id='trOut'><th id='thUp'>ID</th><th>Tekst</th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
                     {
-                        echo "<div id='text'>";
-                        echo "ID: {$row['ID']} <a href = '?id={$row['ID']}&Type=QrcodeID'>update</a><br/>";
-                        echo "Tekst: {$row['Tekst']} <a href = '?id={$row['ID']}&Type=QrcodeTekst'>update</a>";
-                        echo "</div>";
+                        echo "<tr id='trIn'><td>{$row['ID']}</td><br/>";
+                        echo "<td>{$row['Tekst']}</td> <td><input type='text' size='10'></td> <td><a href = 'update_qrcode.php?id={$row['ID']}&Type=QrcodeTekst&Tekst={$row['Tekst']}'>update</a></td</tr>";
                     }
                     break;
             }
