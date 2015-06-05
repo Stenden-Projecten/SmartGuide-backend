@@ -17,9 +17,10 @@ if($db->error !== null) {
 		$stmt = $db->con->prepare("SELECT QRCode.Tekst FROM QRCode WHERE ID = ?");
 		$stmt->bind_param("i", $id);
 		$stmt->execute();
+		$stmt->store_result();
+		$rows = $stmt->num_rows;
 		$stmt->bind_result($tekst);
 		$stmt->fetch();
-		$rows = $stmt->num_rows;
 		$stmt->close();
 
 		if($rows == 0) {
