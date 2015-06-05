@@ -12,14 +12,14 @@
         $Nummer = $_GET['Nummer'];
         $Functie = $_GET['Functie'];
 
-        if (!isset($_GET['Nummer']) || empty($_GET['Nummer']))
+        if (!isset($_GET['Nummer']) || !isset($_GET['Functie']) || empty($_GET['Nummer']) || empty($_GET['Functie']))
         {
-            echo "Kon " . $Nummer . " en ". $Functie ." niet updaten, misschien zijn er lege velden";
+            echo "Kon de rij niet updaten, misschien zijn er lege velden";
         } else
         {
             mysql_connect("localhost", "root", "");
             mysql_select_db('smartguide') or die("Unable to select database");
-            $query = "UPDATE lokaal SET Nummer='$Nummer', Functie='$Functie'";
+            $query = "UPDATE lokaal SET Nummer='$Nummer', Functie='$Functie' WHERE ID='$ID'";
             mysql_query($query) OR DIE(mysql_error());
             echo "De bug is geupdated";
             

@@ -18,9 +18,9 @@
         {
             mysql_connect("localhost", "root", "");
             @mysql_select_db('smartguide') or die("Unable to select database");
-            $query = "UPDATE vak SET Naam='$Naam'";
+            $query = "UPDATE vak SET Naam='$Naam' WHERE ID='$ID'";
             mysql_query($query) OR DIE(mysql_error());
-            echo "De bug is geupdated";
+            echo "De tabel is geupdated";
 
             mysql_close();
         }

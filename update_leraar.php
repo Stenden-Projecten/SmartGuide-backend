@@ -19,7 +19,7 @@
         {
             mysql_connect("localhost", "root", "");
             mysql_select_db('smartguide') or die("Unable to select database");
-            $query = "UPDATE leraar SET Naam='$Naam'";
+            $query = "UPDATE leraar SET Naam='$Naam' WHERE ID='$ID'";
             mysql_query($query) OR DIE(mysql_error());
             echo "De tabel is geupdated";
 
