@@ -6,17 +6,24 @@
         <link href='opmaak.css' rel='stylesheet'>
     </head>
     <body>
-        
+
         <?php
         $ID = $_POST['ID'];
         $Tekst = $_POST['Tekt'];
 
-        mysql_connect("localhost", "root", "");
-        @mysql_select_db('smartguide') or die("Unable to select database");
-        $query = "UPDATE qrcode SET ID='$ID', Tekst='$Tekst'";
-        mysql_query($query) OR DIE(mysql_error());
-        echo "De bug is geupdated";
-        mysql_close();
+        if (!isset($_GET['Tekst']) || empty($_GET['Tekst']))
+        {
+            echo "Kon " . $Tekst . " niet updaten, misschien zijn er lege velden";
+        } else
+        {
+            mysql_connect("localhost", "root", "");
+            @mysql_select_db('smartguide') or die("Unable to select database");
+            $query = "UPDATE qrcode SET Tekst='$Tekst' WHERE ID='$ID'";
+            mysql_query($query) OR DIE(mysql_error());
+            echo "De tabel is geupdated";
+            
+            mysql_close();
+        }
         ?>
 
         <br/>

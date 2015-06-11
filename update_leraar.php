@@ -6,17 +6,25 @@
         <link href='opmaak.css' rel='stylesheet'>
     </head>
     <body>
-        
-        <?php
-        $ID = $_POST['ID'];
-        $Naam = $_POST['Naam'];
 
-        mysql_connect("localhost", "root", "");
-        @mysql_select_db('smartguide') or die("Unable to select database");
-        $query = "UPDATE leraar SET ID='$ID', Naam='$Naam'";
-        mysql_query($query) OR DIE(mysql_error());
-        echo "De bug is geupdated";
-        mysql_close();
+        <?php
+        $ID = $_GET['id'];
+        $Naam = $_GET['Naam'];
+        
+        if (!isset($_GET['Naam']) || empty($_GET['Naam']))
+        {
+            echo "Kon " . $Naam . " niet updaten, misschien zijn er lege velden";
+        }
+        else
+        {
+            mysql_connect("localhost", "root", "");
+            mysql_select_db('smartguide') or die("Unable to select database");
+            $query = "UPDATE leraar SET Naam='$Naam' WHERE ID='$ID'";
+            mysql_query($query) OR DIE(mysql_error());
+            echo "De tabel is geupdated";
+
+            mysql_close();
+        }
         ?>
 
         <br/>
