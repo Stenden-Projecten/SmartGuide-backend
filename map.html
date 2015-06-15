@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
+        <link rel="stylesheet" href="leaflet.label.css">
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            html, body, #map {
+                height: 100%;
+            }
+            .text-label {
+                border: none;
+                background: none;
+            }
+            .text-label:before {
+                content: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="map"></div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+        <script src="leaflet-indoor.js"></script>
+        <script src="leaflet.label.js"></script>
+        <script>
+            var map = L.map("map",{
+                center: [52.77824, 6.91179],
+                zoom: 18,
+                minZoom: 18,
+                maxZoom: 21,
+            });
+
+            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+                maxZoom: 21
+            }).addTo(map);
+
+             $.getJSON("data.json", function(geoJSON) {
+                var indoorLayer = new L.Indoor(geoJSON, {
+                    getLevel: function(feature) { 
+                        if(feature.properties.relations.length === 0) return null;
+                        var buildingpart = feature.properties.relations.filter(function(x) { return x.role == "buildingpart" });
+                        if(buildingpart == 0 || buildingpart.length < 1) return null;
+                        return buildingpart[0].reltags.level;
+                    },
+                    onEachFeature: function(feature, layer) {
+                        //layer.bindPopup(JSON.stringify(feature.properties, null, 4));
+                        
+                        if(feature.properties.tags.name !== undefined) {
+                            //console.log(feature.properties.tags.name);
+                            var m = new L.marker(layer.getBounds().getCenter(), { opacity: 0.01 });
+                            var name = feature.properties.tags.name;
+                            m.bindLabel(name, { noHide: true, className: "text-label", offset: [name.length * -4, -10] });
+                            m.addTo(map);
+                        }
+                    },
+                    style: function(feature) {
+                        var colors = {
+                            "hall": "#fbfaf8",
+                            "room": "#fbf6eb",
+                            "misc": "eeeaf2",
+                            "wall": "#fbefda"
+                        };
+
+                        return {
+                            fillColor: colors[feature.properties.tags.buildingpart] || "#FF0000",
+                            weight: 1,
+                            color: '#e8dac9',
+                            fillOpacity: 1
+                        };
+                    }
+                });
+
+                indoorLayer.setLevel("0");
+                indoorLayer.addTo(map);
+
+                var levelControl = new L.Control.Level({
+                    level: "0",
+                    levels: indoorLayer.getLevels()
+                });
+
+                levelControl.addEventListener("levelchange", indoorLayer.setLevel, indoorLayer);
+                levelControl.addTo(map);
+
+             });
+        </script>
+    </body>
+</html>

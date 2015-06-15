@@ -1,0 +1,6064 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "way/-1935",
+            "properties": {
+                "type": "way",
+                "id": "-1935",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.026B"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2092",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91260691564,
+                            52.77854339335
+                        ],
+                        [
+                            6.91271315647,
+                            52.77854029919
+                        ],
+                        [
+                            6.91271569125,
+                            52.7785723772
+                        ],
+                        [
+                            6.9127167218,
+                            52.77858541892
+                        ],
+                        [
+                            6.91266356962,
+                            52.7785869884
+                        ],
+                        [
+                            6.91266772638,
+                            52.77863858371
+                        ],
+                        [
+                            6.91261449797,
+                            52.7786401588
+                        ],
+                        [
+                            6.91260691564,
+                            52.77854339335
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1925",
+            "properties": {
+                "type": "way",
+                "id": "-1925",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.026C"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2085",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91266772638,
+                            52.77863858371
+                        ],
+                        [
+                            6.91266356962,
+                            52.7785869884
+                        ],
+                        [
+                            6.9127167218,
+                            52.77858541892
+                        ],
+                        [
+                            6.91272089052,
+                            52.77863701053
+                        ],
+                        [
+                            6.91266772638,
+                            52.77863858371
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1967",
+            "properties": {
+                "type": "way",
+                "id": "-1967",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.026D"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2078",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ],
+                        [
+                            6.91287280789,
+                            52.778535563
+                        ],
+                        [
+                            6.91292595621,
+                            52.77853402719
+                        ],
+                        [
+                            6.91292852686,
+                            52.77856618308
+                        ],
+                        [
+                            6.91282196631,
+                            52.77856936171
+                        ],
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1950",
+            "properties": {
+                "type": "way",
+                "id": "-1950",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.026"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2070",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91278247607,
+                            52.77853821576
+                        ],
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ],
+                        [
+                            6.91282196631,
+                            52.77856936171
+                        ],
+                        [
+                            6.91292852686,
+                            52.77856618308
+                        ],
+                        [
+                            6.91292595621,
+                            52.77853402719
+                        ],
+                        [
+                            6.91292425624,
+                            52.77851276254
+                        ],
+                        [
+                            6.91297747141,
+                            52.77851112157
+                        ],
+                        [
+                            6.91298702869,
+                            52.77862913521
+                        ],
+                        [
+                            6.91272089052,
+                            52.77863701053
+                        ],
+                        [
+                            6.9127167218,
+                            52.77858541892
+                        ],
+                        [
+                            6.91271569125,
+                            52.7785723772
+                        ],
+                        [
+                            6.91278483101,
+                            52.77857046114
+                        ],
+                        [
+                            6.91278247607,
+                            52.77853821576
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1944",
+            "properties": {
+                "type": "way",
+                "id": "-1944",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.026A"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2063",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91271569125,
+                            52.7785723772
+                        ],
+                        [
+                            6.91271315647,
+                            52.77854029919
+                        ],
+                        [
+                            6.91278247607,
+                            52.77853821576
+                        ],
+                        [
+                            6.91278483101,
+                            52.77857046114
+                        ],
+                        [
+                            6.91271569125,
+                            52.7785723772
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1982",
+            "properties": {
+                "type": "way",
+                "id": "-1982",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.025A"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2056",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91271315647,
+                            52.77854029919
+                        ],
+                        [
+                            6.91271036384,
+                            52.77850804735
+                        ],
+                        [
+                            6.91277985914,
+                            52.77850587858
+                        ],
+                        [
+                            6.91278247607,
+                            52.77853821576
+                        ],
+                        [
+                            6.91271315647,
+                            52.77854029919
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1998",
+            "properties": {
+                "type": "way",
+                "id": "-1998",
+                "tags": {
+                    "buildingpart": "room"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2055",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91286999472,
+                            52.77850330407
+                        ],
+                        [
+                            6.9129231742,
+                            52.77850182319
+                        ],
+                        [
+                            6.91292425624,
+                            52.77851276254
+                        ],
+                        [
+                            6.91292595621,
+                            52.77853402719
+                        ],
+                        [
+                            6.91287280789,
+                            52.778535563
+                        ],
+                        [
+                            6.91286999472,
+                            52.77850330407
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1973",
+            "properties": {
+                "type": "way",
+                "id": "-1973",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.025B"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2048",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ],
+                        [
+                            6.9128168903,
+                            52.77850489081
+                        ],
+                        [
+                            6.91286999472,
+                            52.77850330407
+                        ],
+                        [
+                            6.91287280789,
+                            52.778535563
+                        ],
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-2003",
+            "properties": {
+                "type": "way",
+                "id": "-2003",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.025C"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2041",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9129231742,
+                            52.77850182319
+                        ],
+                        [
+                            6.91297660105,
+                            52.7785003743
+                        ],
+                        [
+                            6.91297747141,
+                            52.77851112157
+                        ],
+                        [
+                            6.91292425624,
+                            52.77851276254
+                        ],
+                        [
+                            6.9129231742,
+                            52.77850182319
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1990",
+            "properties": {
+                "type": "way",
+                "id": "-1990",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.025D"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2034",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91297660105,
+                            52.7785003743
+                        ],
+                        [
+                            6.9129231742,
+                            52.77850182319
+                        ],
+                        [
+                            6.91290335033,
+                            52.7784794911
+                        ],
+                        [
+                            6.91289651032,
+                            52.77840570754
+                        ],
+                        [
+                            6.91296874813,
+                            52.7784034058
+                        ],
+                        [
+                            6.91297660105,
+                            52.7785003743
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-2007",
+            "properties": {
+                "type": "way",
+                "id": "-2007",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.025"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-2027",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91260691564,
+                            52.77854339335
+                        ],
+                        [
+                            6.91259681975,
+                            52.77841454948
+                        ],
+                        [
+                            6.91261160803,
+                            52.77841418838
+                        ],
+                        [
+                            6.91264923745,
+                            52.77841334705
+                        ],
+                        [
+                            6.91275595687,
+                            52.77841018604
+                        ],
+                        [
+                            6.91289651032,
+                            52.77840570754
+                        ],
+                        [
+                            6.91290335033,
+                            52.7784794911
+                        ],
+                        [
+                            6.9129231742,
+                            52.77850182319
+                        ],
+                        [
+                            6.91286999472,
+                            52.77850330407
+                        ],
+                        [
+                            6.9128168903,
+                            52.77850489081
+                        ],
+                        [
+                            6.9128195157,
+                            52.77853710296
+                        ],
+                        [
+                            6.91278247607,
+                            52.77853821576
+                        ],
+                        [
+                            6.91277985914,
+                            52.77850587858
+                        ],
+                        [
+                            6.91271036384,
+                            52.77850804735
+                        ],
+                        [
+                            6.91271315647,
+                            52.77854029919
+                        ],
+                        [
+                            6.91260691564,
+                            52.77854339335
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1898",
+            "properties": {
+                "type": "way",
+                "id": "-1898",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.057A"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1905",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91183515401,
+                            52.77824271619
+                        ],
+                        [
+                            6.91183216589,
+                            52.7782115367
+                        ],
+                        [
+                            6.91188631914,
+                            52.77820995883
+                        ],
+                        [
+                            6.91188900983,
+                            52.77824114574
+                        ],
+                        [
+                            6.91183515401,
+                            52.77824271619
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1875",
+            "properties": {
+                "type": "way",
+                "id": "-1875",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.116"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1882",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91106326241,
+                            52.77791053687
+                        ],
+                        [
+                            6.91106168466,
+                            52.77789215882
+                        ],
+                        [
+                            6.91109327963,
+                            52.777891233
+                        ],
+                        [
+                            6.91109487536,
+                            52.77790964733
+                        ],
+                        [
+                            6.91106326241,
+                            52.77791053687
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-1834",
+            "properties": {
+                "type": "way",
+                "id": "-1834",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.115B"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1844",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91097374115,
+                            52.7779449744
+                        ],
+                        [
+                            6.91097297985,
+                            52.77793695753
+                        ],
+                        [
+                            6.91095656763,
+                            52.77793741257
+                        ],
+                        [
+                            6.91095476028,
+                            52.77791474716
+                        ],
+                        [
+                            6.91100792313,
+                            52.77791318869
+                        ],
+                        [
+                            6.91101042816,
+                            52.77794387868
+                        ],
+                        [
+                            6.91100250732,
+                            52.77794411525
+                        ],
+                        [
+                            6.91098465857,
+                            52.77794464834
+                        ],
+                        [
+                            6.91097374115,
+                            52.7779449744
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-514",
+            "properties": {
+                "type": "way",
+                "id": "-514",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.115"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1496",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91105768757,
+                            52.77784559953
+                        ],
+                        [
+                            6.91106168466,
+                            52.77789215882
+                        ],
+                        [
+                            6.91106326241,
+                            52.77791053687
+                        ],
+                        [
+                            6.91106597231,
+                            52.77794210248
+                        ],
+                        [
+                            6.91101042816,
+                            52.77794387868
+                        ],
+                        [
+                            6.91100260792,
+                            52.77784726759
+                        ],
+                        [
+                            6.91105768757,
+                            52.77784559953
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-522",
+            "properties": {
+                "type": "way",
+                "id": "-522",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.115A"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1495",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91100260792,
+                            52.77784726759
+                        ],
+                        [
+                            6.91100792313,
+                            52.77791318869
+                        ],
+                        [
+                            6.91095476028,
+                            52.77791474716
+                        ],
+                        [
+                            6.91094950764,
+                            52.77784887571
+                        ],
+                        [
+                            6.91100260792,
+                            52.77784726759
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-516",
+            "properties": {
+                "type": "way",
+                "id": "-516",
+                "tags": {
+                    "buildingpart": "wall"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1491",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91095656763,
+                            52.77793741257
+                        ],
+                        [
+                            6.91097297985,
+                            52.77793695753
+                        ],
+                        [
+                            6.91097374115,
+                            52.7779449744
+                        ],
+                        [
+                            6.91095720999,
+                            52.77794546814
+                        ],
+                        [
+                            6.91095656763,
+                            52.77793741257
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-498",
+            "properties": {
+                "type": "way",
+                "id": "-498",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.115C"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1483",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91106597231,
+                            52.77794210248
+                        ],
+                        [
+                            6.91106863226,
+                            52.77797461176
+                        ],
+                        [
+                            6.91100531879,
+                            52.77797638605
+                        ],
+                        [
+                            6.91100250732,
+                            52.77794411525
+                        ],
+                        [
+                            6.91101042816,
+                            52.77794387868
+                        ],
+                        [
+                            6.91106597231,
+                            52.77794210248
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-496",
+            "properties": {
+                "type": "way",
+                "id": "-496",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.115D"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1482",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91100531879,
+                            52.77797638605
+                        ],
+                        [
+                            6.9109872617,
+                            52.77797696763
+                        ],
+                        [
+                            6.91098465857,
+                            52.77794464834
+                        ],
+                        [
+                            6.91100250732,
+                            52.77794411525
+                        ],
+                        [
+                            6.91100531879,
+                            52.77797638605
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-494",
+            "properties": {
+                "type": "way",
+                "id": "-494",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.06"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1477",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9109872617,
+                            52.77797696763
+                        ],
+                        [
+                            6.91091528821,
+                            52.77797914744
+                        ],
+                        [
+                            6.91091272765,
+                            52.77794681414
+                        ],
+                        [
+                            6.91095720999,
+                            52.77794546814
+                        ],
+                        [
+                            6.91097374115,
+                            52.7779449744
+                        ],
+                        [
+                            6.91098465857,
+                            52.77794464834
+                        ],
+                        [
+                            6.9109872617,
+                            52.77797696763
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-524",
+            "properties": {
+                "type": "way",
+                "id": "-524",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.113"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1474",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91084817306,
+                            52.77791628911
+                        ],
+                        [
+                            6.91084309622,
+                            52.77785209834
+                        ],
+                        [
+                            6.91094950764,
+                            52.77784887571
+                        ],
+                        [
+                            6.91095476028,
+                            52.77791474716
+                        ],
+                        [
+                            6.91095656763,
+                            52.77793741257
+                        ],
+                        [
+                            6.91095720999,
+                            52.77794546814
+                        ],
+                        [
+                            6.91091272765,
+                            52.77794681414
+                        ],
+                        [
+                            6.91088627699,
+                            52.77794761452
+                        ],
+                        [
+                            6.91088347441,
+                            52.77791521043
+                        ],
+                        [
+                            6.91084817306,
+                            52.77791628911
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-500",
+            "properties": {
+                "type": "way",
+                "id": "-500",
+                "tags": {
+                    "buildingpart": "room"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1473",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91081419856,
+                            52.77793514201
+                        ],
+                        [
+                            6.91081285623,
+                            52.77791712283
+                        ],
+                        [
+                            6.91084817306,
+                            52.77791628911
+                        ],
+                        [
+                            6.91088347441,
+                            52.77791521043
+                        ],
+                        [
+                            6.91088627699,
+                            52.77794761452
+                        ],
+                        [
+                            6.91081551803,
+                            52.7779497132
+                        ],
+                        [
+                            6.91081419856,
+                            52.77793514201
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-526",
+            "properties": {
+                "type": "way",
+                "id": "-526",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.111"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1472",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91074332474,
+                            52.7779371566
+                        ],
+                        [
+                            6.91073652672,
+                            52.77785532575
+                        ],
+                        [
+                            6.91084309622,
+                            52.77785209834
+                        ],
+                        [
+                            6.91084817306,
+                            52.77791628911
+                        ],
+                        [
+                            6.91081285623,
+                            52.77791712283
+                        ],
+                        [
+                            6.91081419856,
+                            52.77793514201
+                        ],
+                        [
+                            6.91074332474,
+                            52.7779371566
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-528",
+            "properties": {
+                "type": "way",
+                "id": "-528",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.109"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1471",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91073652672,
+                            52.77785532575
+                        ],
+                        [
+                            6.91074332474,
+                            52.7779371566
+                        ],
+                        [
+                            6.9107445471,
+                            52.77795187072
+                        ],
+                        [
+                            6.91068876444,
+                            52.77795339947
+                        ],
+                        [
+                            6.91063883614,
+                            52.77795476778
+                        ],
+                        [
+                            6.91063160983,
+                            52.77785850312
+                        ],
+                        [
+                            6.91073652672,
+                            52.77785532575
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-518",
+            "properties": {
+                "type": "way",
+                "id": "-518",
+                "tags": {
+                    "buildingpart": "wall"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1470",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9107445471,
+                            52.77795187072
+                        ],
+                        [
+                            6.91074531798,
+                            52.77796010317
+                        ],
+                        [
+                            6.91070357962,
+                            52.77796145148
+                        ],
+                        [
+                            6.91068876444,
+                            52.77795339947
+                        ],
+                        [
+                            6.9107445471,
+                            52.77795187072
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-502",
+            "properties": {
+                "type": "way",
+                "id": "-502",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "TH.0.08"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1469",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91069464204,
+                            52.7779857908
+                        ],
+                        [
+                            6.91069304771,
+                            52.7779699477
+                        ],
+                        [
+                            6.91068325777,
+                            52.77796487171
+                        ],
+                        [
+                            6.91062102428,
+                            52.77796650552
+                        ],
+                        [
+                            6.91062013054,
+                            52.77795574322
+                        ],
+                        [
+                            6.91063883614,
+                            52.77795476778
+                        ],
+                        [
+                            6.91068876444,
+                            52.77795339947
+                        ],
+                        [
+                            6.91070357962,
+                            52.77796145148
+                        ],
+                        [
+                            6.91074531798,
+                            52.77796010317
+                        ],
+                        [
+                            6.91078943662,
+                            52.77795877625
+                        ],
+                        [
+                            6.91079249597,
+                            52.77798870344
+                        ],
+                        [
+                            6.9107120786,
+                            52.77799081844
+                        ],
+                        [
+                            6.91071155413,
+                            52.77798531945
+                        ],
+                        [
+                            6.91069464204,
+                            52.7779857908
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-504",
+            "properties": {
+                "type": "way",
+                "id": "-504",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.107"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1468",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91058761591,
+                            52.77799429525
+                        ],
+                        [
+                            6.9105868221,
+                            52.77798364141
+                        ],
+                        [
+                            6.91058420126,
+                            52.77795063013
+                        ],
+                        [
+                            6.91061927051,
+                            52.77794963046
+                        ],
+                        [
+                            6.91062013054,
+                            52.77795574322
+                        ],
+                        [
+                            6.91062102428,
+                            52.77796650552
+                        ],
+                        [
+                            6.91068325777,
+                            52.77796487171
+                        ],
+                        [
+                            6.91069304771,
+                            52.7779699477
+                        ],
+                        [
+                            6.91069464204,
+                            52.7779857908
+                        ],
+                        [
+                            6.91069518797,
+                            52.77799121581
+                        ],
+                        [
+                            6.91058761591,
+                            52.77799429525
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-530",
+            "properties": {
+                "type": "way",
+                "id": "-530",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.106"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1467",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9105868221,
+                            52.77798364141
+                        ],
+                        [
+                            6.9105337991,
+                            52.77798515279
+                        ],
+                        [
+                            6.91053092811,
+                            52.77795214871
+                        ],
+                        [
+                            6.91058420126,
+                            52.77795063013
+                        ],
+                        [
+                            6.9105868221,
+                            52.77798364141
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-532",
+            "properties": {
+                "type": "way",
+                "id": "-532",
+                "tags": {
+                    "buildingpart": "room"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1466",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9105667927,
+                            52.77799486513
+                        ],
+                        [
+                            6.91053472252,
+                            52.77799576816
+                        ],
+                        [
+                            6.9105337991,
+                            52.77798515279
+                        ],
+                        [
+                            6.9105868221,
+                            52.77798364141
+                        ],
+                        [
+                            6.91058761591,
+                            52.77799429525
+                        ],
+                        [
+                            6.9105667927,
+                            52.77799486513
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-534",
+            "properties": {
+                "type": "way",
+                "id": "-534",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.105"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1465",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91053092811,
+                            52.77795214871
+                        ],
+                        [
+                            6.9105337991,
+                            52.77798515279
+                        ],
+                        [
+                            6.91053472252,
+                            52.77799576816
+                        ],
+                        [
+                            6.91048072899,
+                            52.7779972885
+                        ],
+                        [
+                            6.91047742156,
+                            52.77795367395
+                        ],
+                        [
+                            6.91053092811,
+                            52.77795214871
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-536",
+            "properties": {
+                "type": "way",
+                "id": "-536",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.104"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1464",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91059010784,
+                            52.77803697546
+                        ],
+                        [
+                            6.91048397475,
+                            52.77804008962
+                        ],
+                        [
+                            6.91048072899,
+                            52.7779972885
+                        ],
+                        [
+                            6.91053472252,
+                            52.77799576816
+                        ],
+                        [
+                            6.9105667927,
+                            52.77799486513
+                        ],
+                        [
+                            6.91058766058,
+                            52.77800635659
+                        ],
+                        [
+                            6.91059010784,
+                            52.77803697546
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-538",
+            "properties": {
+                "type": "way",
+                "id": "-538",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.103"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1463",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91048397475,
+                            52.77804008962
+                        ],
+                        [
+                            6.91059010784,
+                            52.77803697546
+                        ],
+                        [
+                            6.91059261274,
+                            52.77806771075
+                        ],
+                        [
+                            6.91056580538,
+                            52.77808603763
+                        ],
+                        [
+                            6.91054215657,
+                            52.77808666642
+                        ],
+                        [
+                            6.91048764737,
+                            52.77808851975
+                        ],
+                        [
+                            6.91048397475,
+                            52.77804008962
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-506",
+            "properties": {
+                "type": "way",
+                "id": "-506",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.100"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1460",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91079640039,
+                            52.77811160325
+                        ],
+                        [
+                            6.9107939136,
+                            52.77807958805
+                        ],
+                        [
+                            6.91082095759,
+                            52.77807883929
+                        ],
+                        [
+                            6.91082353158,
+                            52.77811080436
+                        ],
+                        [
+                            6.91079640039,
+                            52.77811160325
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-508",
+            "properties": {
+                "type": "way",
+                "id": "-508",
+                "tags": {
+                    "buildingpart": "room"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1459",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91075155332,
+                            52.77811292187
+                        ],
+                        [
+                            6.91074883376,
+                            52.7780808055
+                        ],
+                        [
+                            6.9107939136,
+                            52.77807958805
+                        ],
+                        [
+                            6.91079640039,
+                            52.77811160325
+                        ],
+                        [
+                            6.91075155332,
+                            52.77811292187
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-510",
+            "properties": {
+                "type": "way",
+                "id": "-510",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.07"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1458",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9107192534,
+                            52.77808173899
+                        ],
+                        [
+                            6.91074883376,
+                            52.7780808055
+                        ],
+                        [
+                            6.91075155332,
+                            52.77811292187
+                        ],
+                        [
+                            6.91072170452,
+                            52.7781138724
+                        ],
+                        [
+                            6.9107192534,
+                            52.77808173899
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-512",
+            "properties": {
+                "type": "way",
+                "id": "-512",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.08"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1455",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91064824597,
+                            52.77808384564
+                        ],
+                        [
+                            6.9107192534,
+                            52.77808173899
+                        ],
+                        [
+                            6.91072170452,
+                            52.7781138724
+                        ],
+                        [
+                            6.9106509469,
+                            52.77811597936
+                        ],
+                        [
+                            6.91064824597,
+                            52.77808384564
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-540",
+            "properties": {
+                "type": "way",
+                "id": "-540",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.102"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1454",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91059677634,
+                            52.7781174763
+                        ],
+                        [
+                            6.91054468382,
+                            52.77811890571
+                        ],
+                        [
+                            6.91054215657,
+                            52.77808666642
+                        ],
+                        [
+                            6.91056580538,
+                            52.77808603763
+                        ],
+                        [
+                            6.91064824597,
+                            52.77808384564
+                        ],
+                        [
+                            6.9106509469,
+                            52.77811597936
+                        ],
+                        [
+                            6.91059677634,
+                            52.7781174763
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-558",
+            "properties": {
+                "type": "way",
+                "id": "-558",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.099"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1453",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91060296089,
+                            52.77818177873
+                        ],
+                        [
+                            6.91054973504,
+                            52.77818334224
+                        ],
+                        [
+                            6.91054468382,
+                            52.77811890571
+                        ],
+                        [
+                            6.91059677634,
+                            52.7781174763
+                        ],
+                        [
+                            6.91059833563,
+                            52.77813368864
+                        ],
+                        [
+                            6.91060296089,
+                            52.77818177873
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-556",
+            "properties": {
+                "type": "way",
+                "id": "-556",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.098"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1452",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91065618042,
+                            52.7781802154
+                        ],
+                        [
+                            6.91060296089,
+                            52.77818177873
+                        ],
+                        [
+                            6.91059833563,
+                            52.77813368864
+                        ],
+                        [
+                            6.9106521541,
+                            52.77813216818
+                        ],
+                        [
+                            6.91065618042,
+                            52.7781802154
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-554",
+            "properties": {
+                "type": "way",
+                "id": "-554",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.097"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1451",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9106521541,
+                            52.77813216818
+                        ],
+                        [
+                            6.91072299729,
+                            52.77812997278
+                        ],
+                        [
+                            6.91072716091,
+                            52.77817813035
+                        ],
+                        [
+                            6.91065618042,
+                            52.7781802154
+                        ],
+                        [
+                            6.9106521541,
+                            52.77813216818
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-552",
+            "properties": {
+                "type": "way",
+                "id": "-552",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.096"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1441",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91072299729,
+                            52.77812997278
+                        ],
+                        [
+                            6.91079376924,
+                            52.77812802063
+                        ],
+                        [
+                            6.91079774898,
+                            52.77817605682
+                        ],
+                        [
+                            6.91072716091,
+                            52.77817813035
+                        ],
+                        [
+                            6.91072299729,
+                            52.77812997278
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-550",
+            "properties": {
+                "type": "way",
+                "id": "-550",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.094"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1440",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91079376924,
+                            52.77812802063
+                        ],
+                        [
+                            6.91086512067,
+                            52.77812601424
+                        ],
+                        [
+                            6.91086909246,
+                            52.77817396111
+                        ],
+                        [
+                            6.91079774898,
+                            52.77817605682
+                        ],
+                        [
+                            6.91079376924,
+                            52.77812802063
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-548",
+            "properties": {
+                "type": "way",
+                "id": "-548",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.092"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1439",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91086512067,
+                            52.77812601424
+                        ],
+                        [
+                            6.91086401357,
+                            52.778109458
+                        ],
+                        [
+                            6.91097036227,
+                            52.77810633661
+                        ],
+                        [
+                            6.91097565668,
+                            52.77817083078
+                        ],
+                        [
+                            6.91086909246,
+                            52.77817396111
+                        ],
+                        [
+                            6.91086512067,
+                            52.77812601424
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-546",
+            "properties": {
+                "type": "way",
+                "id": "-546",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.090"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1438",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91086401357,
+                            52.778109458
+                        ],
+                        [
+                            6.91085898295,
+                            52.7780456965
+                        ],
+                        [
+                            6.91096507139,
+                            52.77804188521
+                        ],
+                        [
+                            6.91097036227,
+                            52.77810633661
+                        ],
+                        [
+                            6.91086401357,
+                            52.778109458
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-544",
+            "properties": {
+                "type": "way",
+                "id": "-544",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.088"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1437",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91085898295,
+                            52.7780456965
+                        ],
+                        [
+                            6.91085632535,
+                            52.77801323214
+                        ],
+                        [
+                            6.91098045648,
+                            52.77800954973
+                        ],
+                        [
+                            6.91098328801,
+                            52.7780413405
+                        ],
+                        [
+                            6.91096507139,
+                            52.77804188521
+                        ],
+                        [
+                            6.91085898295,
+                            52.7780456965
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-542",
+            "properties": {
+                "type": "way",
+                "id": "-542",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.087"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1434",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91098045648,
+                            52.77800954973
+                        ],
+                        [
+                            6.91105065792,
+                            52.77800739896
+                        ],
+                        [
+                            6.9110696757,
+                            52.77801689215
+                        ],
+                        [
+                            6.91107163033,
+                            52.7780386989
+                        ],
+                        [
+                            6.91098328801,
+                            52.7780413405
+                        ],
+                        [
+                            6.91098045648,
+                            52.77800954973
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-560",
+            "properties": {
+                "type": "way",
+                "id": "-560",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "TR.0.08"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1433",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91112496841,
+                            52.77803710399
+                        ],
+                        [
+                            6.91112236395,
+                            52.77800487094
+                        ],
+                        [
+                            6.91122862431,
+                            52.77800181282
+                        ],
+                        [
+                            6.9112312219,
+                            52.77803404297
+                        ],
+                        [
+                            6.91112496841,
+                            52.77803710399
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-562",
+            "properties": {
+                "type": "way",
+                "id": "-562",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.083"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1432",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91112496841,
+                            52.77803710399
+                        ],
+                        [
+                            6.9112312219,
+                            52.77803404297
+                        ],
+                        [
+                            6.91123400606,
+                            52.77806623839
+                        ],
+                        [
+                            6.91112756551,
+                            52.77806944828
+                        ],
+                        [
+                            6.91112496841,
+                            52.77803710399
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-564",
+            "properties": {
+                "type": "way",
+                "id": "-564",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.082"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1431",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91112756551,
+                            52.77806944828
+                        ],
+                        [
+                            6.91123400606,
+                            52.77806623839
+                        ],
+                        [
+                            6.9112365489,
+                            52.77809846065
+                        ],
+                        [
+                            6.91113015456,
+                            52.77810169226
+                        ],
+                        [
+                            6.91112756551,
+                            52.77806944828
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-566",
+            "properties": {
+                "type": "way",
+                "id": "-566",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.081"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1430",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91113015456,
+                            52.77810169226
+                        ],
+                        [
+                            6.9112365489,
+                            52.77809846065
+                        ],
+                        [
+                            6.91123915771,
+                            52.77813079318
+                        ],
+                        [
+                            6.9111327459,
+                            52.77813396478
+                        ],
+                        [
+                            6.91113015456,
+                            52.77810169226
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-568",
+            "properties": {
+                "type": "way",
+                "id": "-568",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.080"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1429",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9111327459,
+                            52.77813396478
+                        ],
+                        [
+                            6.91123915771,
+                            52.77813079318
+                        ],
+                        [
+                            6.91124176395,
+                            52.7781630546
+                        ],
+                        [
+                            6.9111353269,
+                            52.77816610854
+                        ],
+                        [
+                            6.9111327459,
+                            52.77813396478
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-570",
+            "properties": {
+                "type": "way",
+                "id": "-570",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.079"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1428",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91113843603,
+                            52.77820482959
+                        ],
+                        [
+                            6.9111353269,
+                            52.77816610854
+                        ],
+                        [
+                            6.91124176395,
+                            52.7781630546
+                        ],
+                        [
+                            6.9112447765,
+                            52.77820148694
+                        ],
+                        [
+                            6.91113843603,
+                            52.77820482959
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-584",
+            "properties": {
+                "type": "way",
+                "id": "-584",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.065"
+                },
+                "relations": [
+                    {
+                        "role": "outer",
+                        "rel": "-1306",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    },
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91161953138,
+                            52.77821668277
+                        ],
+                        [
+                            6.91161600581,
+                            52.77817372752
+                        ],
+                        [
+                            6.91166932936,
+                            52.77817218656
+                        ],
+                        [
+                            6.91167540278,
+                            52.77824724071
+                        ],
+                        [
+                            6.91162268896,
+                            52.77824873369
+                        ],
+                        [
+                            6.91161953138,
+                            52.77821668277
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-644",
+            "properties": {
+                "type": "way",
+                "id": "-644",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.015"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-724",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91232036254,
+                            52.77830317849
+                        ],
+                        [
+                            6.91231691662,
+                            52.77826051204
+                        ],
+                        [
+                            6.91236985148,
+                            52.77825872027
+                        ],
+                        [
+                            6.91237389348,
+                            52.77830161052
+                        ],
+                        [
+                            6.91232036254,
+                            52.77830317849
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-642",
+            "properties": {
+                "type": "way",
+                "id": "-642",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.016"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-722",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91237389348,
+                            52.77830161052
+                        ],
+                        [
+                            6.91236985148,
+                            52.77825872027
+                        ],
+                        [
+                            6.9124231236,
+                            52.77825724065
+                        ],
+                        [
+                            6.91242680687,
+                            52.77830006064
+                        ],
+                        [
+                            6.91237389348,
+                            52.77830161052
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-640",
+            "properties": {
+                "type": "way",
+                "id": "-640",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.017"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-720",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91242680687,
+                            52.77830006064
+                        ],
+                        [
+                            6.9124231236,
+                            52.77825724065
+                        ],
+                        [
+                            6.91252967978,
+                            52.77825428107
+                        ],
+                        [
+                            6.9125333629,
+                            52.77829693952
+                        ],
+                        [
+                            6.91242680687,
+                            52.77830006064
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-638",
+            "properties": {
+                "type": "way",
+                "id": "-638",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.018"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-718",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9125333629,
+                            52.77829693952
+                        ],
+                        [
+                            6.91252967978,
+                            52.77825428107
+                        ],
+                        [
+                            6.91258287662,
+                            52.77825280353
+                        ],
+                        [
+                            6.91258658419,
+                            52.77829538063
+                        ],
+                        [
+                            6.9125333629,
+                            52.77829693952
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-636",
+            "properties": {
+                "type": "way",
+                "id": "-636",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.019"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-716",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91258658419,
+                            52.77829538063
+                        ],
+                        [
+                            6.91258287662,
+                            52.77825280353
+                        ],
+                        [
+                            6.91263625464,
+                            52.77825132096
+                        ],
+                        [
+                            6.91263964464,
+                            52.77829382644
+                        ],
+                        [
+                            6.91258658419,
+                            52.77829538063
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-646",
+            "properties": {
+                "type": "way",
+                "id": "-646",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.021"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-714",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91264141942,
+                            52.77831607961
+                        ],
+                        [
+                            6.91263964464,
+                            52.77829382644
+                        ],
+                        [
+                            6.91263625464,
+                            52.77825132096
+                        ],
+                        [
+                            6.91274252257,
+                            52.77824836939
+                        ],
+                        [
+                            6.91274788473,
+                            52.77831295694
+                        ],
+                        [
+                            6.91264141942,
+                            52.77831607961
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-634",
+            "properties": {
+                "type": "way",
+                "id": "-634",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.023"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-712",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91275595687,
+                            52.77841018604
+                        ],
+                        [
+                            6.91264923745,
+                            52.77841334705
+                        ],
+                        [
+                            6.91264141942,
+                            52.77831607961
+                        ],
+                        [
+                            6.91274788473,
+                            52.77831295694
+                        ],
+                        [
+                            6.91275595687,
+                            52.77841018604
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-624",
+            "properties": {
+                "type": "way",
+                "id": "-624",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.013"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-710",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9122839273,
+                            52.77830432936
+                        ],
+                        [
+                            6.9121605572,
+                            52.77830804547
+                        ],
+                        [
+                            6.91215711103,
+                            52.77826552093
+                        ],
+                        [
+                            6.91221038647,
+                            52.77826392965
+                        ],
+                        [
+                            6.9122804611,
+                            52.77826183659
+                        ],
+                        [
+                            6.9122839273,
+                            52.77830432936
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-622",
+            "properties": {
+                "type": "way",
+                "id": "-622",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.014"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-708",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91215711103,
+                            52.77826552093
+                        ],
+                        [
+                            6.91215449029,
+                            52.77823343942
+                        ],
+                        [
+                            6.91220763586,
+                            52.77823181217
+                        ],
+                        [
+                            6.91221038647,
+                            52.77826392965
+                        ],
+                        [
+                            6.91215711103,
+                            52.77826552093
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-620",
+            "properties": {
+                "type": "way",
+                "id": "-620",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.012"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-706",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91220763586,
+                            52.77823181217
+                        ],
+                        [
+                            6.91227785696,
+                            52.77822976156
+                        ],
+                        [
+                            6.9122804611,
+                            52.77826183659
+                        ],
+                        [
+                            6.91221038647,
+                            52.77826392965
+                        ],
+                        [
+                            6.91220763586,
+                            52.77823181217
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-618",
+            "properties": {
+                "type": "way",
+                "id": "-618",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.011"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-704",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91215449029,
+                            52.77823343942
+                        ],
+                        [
+                            6.91214915194,
+                            52.77816888798
+                        ],
+                        [
+                            6.91227255103,
+                            52.77816517749
+                        ],
+                        [
+                            6.91227785696,
+                            52.77822976156
+                        ],
+                        [
+                            6.91220763586,
+                            52.77823181217
+                        ],
+                        [
+                            6.91215449029,
+                            52.77823343942
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-604",
+            "properties": {
+                "type": "way",
+                "id": "-604",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "TH.0.03"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-702",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91220164711,
+                            52.77842588228
+                        ],
+                        [
+                            6.91227676229,
+                            52.77842349735
+                        ],
+                        [
+                            6.91227891236,
+                            52.77845607673
+                        ],
+                        [
+                            6.9122260243,
+                            52.77845744556
+                        ],
+                        [
+                            6.9121888729,
+                            52.77845834368
+                        ],
+                        [
+                            6.91218629282,
+                            52.77842654464
+                        ],
+                        [
+                            6.91220164711,
+                            52.77842588228
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-632",
+            "properties": {
+                "type": "way",
+                "id": "-632",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "TH.0.01"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-700",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91231691662,
+                            52.77826051204
+                        ],
+                        [
+                            6.9123122409,
+                            52.77820699497
+                        ],
+                        [
+                            6.91236523918,
+                            52.77820546408
+                        ],
+                        [
+                            6.9123673789,
+                            52.77822711617
+                        ],
+                        [
+                            6.91236985148,
+                            52.77825872027
+                        ],
+                        [
+                            6.91231691662,
+                            52.77826051204
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-628",
+            "properties": {
+                "type": "way",
+                "id": "-628",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.010"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-698",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9123122409,
+                            52.77820699497
+                        ],
+                        [
+                            6.91230897766,
+                            52.77816402318
+                        ],
+                        [
+                            6.91236218916,
+                            52.77816259772
+                        ],
+                        [
+                            6.91236470492,
+                            52.77819484197
+                        ],
+                        [
+                            6.91236523918,
+                            52.77820546408
+                        ],
+                        [
+                            6.9123122409,
+                            52.77820699497
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-630",
+            "properties": {
+                "type": "way",
+                "id": "-630",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.008"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-696",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91236523918,
+                            52.77820546408
+                        ],
+                        [
+                            6.91236470492,
+                            52.77819484197
+                        ],
+                        [
+                            6.9123897916,
+                            52.77819410422
+                        ],
+                        [
+                            6.91247139956,
+                            52.77819170429
+                        ],
+                        [
+                            6.91247403475,
+                            52.778224022
+                        ],
+                        [
+                            6.9123673789,
+                            52.77822711617
+                        ],
+                        [
+                            6.91236523918,
+                            52.77820546408
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-626",
+            "properties": {
+                "type": "way",
+                "id": "-626",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.007"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-694",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9123897916,
+                            52.77819410422
+                        ],
+                        [
+                            6.9123873805,
+                            52.77816188703
+                        ],
+                        [
+                            6.91246876787,
+                            52.77815942953
+                        ],
+                        [
+                            6.91247139956,
+                            52.77819170429
+                        ],
+                        [
+                            6.9123897916,
+                            52.77819410422
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-602",
+            "properties": {
+                "type": "way",
+                "id": "-602",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.077"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-692",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9111405319,
+                            52.77823093141
+                        ],
+                        [
+                            6.91119360994,
+                            52.77822938103
+                        ],
+                        [
+                            6.911198989,
+                            52.77829367794
+                        ],
+                        [
+                            6.91114569614,
+                            52.77829524667
+                        ],
+                        [
+                            6.9111405319,
+                            52.77823093141
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-600",
+            "properties": {
+                "type": "way",
+                "id": "-600",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.076"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-690",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91119360994,
+                            52.77822938103
+                        ],
+                        [
+                            6.91124717998,
+                            52.77822763586
+                        ],
+                        [
+                            6.91124885941,
+                            52.77824902701
+                        ],
+                        [
+                            6.91125224191,
+                            52.77829211039
+                        ],
+                        [
+                            6.911198989,
+                            52.77829367794
+                        ],
+                        [
+                            6.91119360994,
+                            52.77822938103
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-598",
+            "properties": {
+                "type": "way",
+                "id": "-598",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.075"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-688",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91124885941,
+                            52.77824902701
+                        ],
+                        [
+                            6.91130181321,
+                            52.778247363
+                        ],
+                        [
+                            6.91130543613,
+                            52.77829054456
+                        ],
+                        [
+                            6.91125224191,
+                            52.77829211039
+                        ],
+                        [
+                            6.91124885941,
+                            52.77824902701
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-596",
+            "properties": {
+                "type": "way",
+                "id": "-596",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.074"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-686",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91130181321,
+                            52.778247363
+                        ],
+                        [
+                            6.9113550995,
+                            52.77824575046
+                        ],
+                        [
+                            6.911358737,
+                            52.7782889756
+                        ],
+                        [
+                            6.91130543613,
+                            52.77829054456
+                        ],
+                        [
+                            6.91130181321,
+                            52.778247363
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-594",
+            "properties": {
+                "type": "way",
+                "id": "-594",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.072"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-684",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9113550995,
+                            52.77824575046
+                        ],
+                        [
+                            6.91140844587,
+                            52.77824422573
+                        ],
+                        [
+                            6.91141195806,
+                            52.77828740898
+                        ],
+                        [
+                            6.911358737,
+                            52.7782889756
+                        ],
+                        [
+                            6.9113550995,
+                            52.77824575046
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-592",
+            "properties": {
+                "type": "way",
+                "id": "-592",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.071"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-682",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91140844587,
+                            52.77824422573
+                        ],
+                        [
+                            6.91146157415,
+                            52.77824268795
+                        ],
+                        [
+                            6.91146513544,
+                            52.77828584365
+                        ],
+                        [
+                            6.91141195806,
+                            52.77828740898
+                        ],
+                        [
+                            6.91140844587,
+                            52.77824422573
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-590",
+            "properties": {
+                "type": "way",
+                "id": "-590",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.070"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-680",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91146157415,
+                            52.77824268795
+                        ],
+                        [
+                            6.91145985225,
+                            52.77822130931
+                        ],
+                        [
+                            6.91151320152,
+                            52.77821967968
+                        ],
+                        [
+                            6.91151835623,
+                            52.77828427704
+                        ],
+                        [
+                            6.91146513544,
+                            52.77828584365
+                        ],
+                        [
+                            6.91146157415,
+                            52.77824268795
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-588",
+            "properties": {
+                "type": "way",
+                "id": "-588",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.068"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-678",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91151320152,
+                            52.77821967968
+                        ],
+                        [
+                            6.9115663272,
+                            52.77821810319
+                        ],
+                        [
+                            6.91157166747,
+                            52.77828270777
+                        ],
+                        [
+                            6.91151835623,
+                            52.77828427704
+                        ],
+                        [
+                            6.91151320152,
+                            52.77821967968
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-586",
+            "properties": {
+                "type": "way",
+                "id": "-586",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.066"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-676",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9115663272,
+                            52.77821810319
+                        ],
+                        [
+                            6.91161953138,
+                            52.77821668277
+                        ],
+                        [
+                            6.91162268896,
+                            52.77824873369
+                        ],
+                        [
+                            6.91162482277,
+                            52.77828114309
+                        ],
+                        [
+                            6.91157166747,
+                            52.77828270777
+                        ],
+                        [
+                            6.9115663272,
+                            52.77821810319
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-582",
+            "properties": {
+                "type": "way",
+                "id": "-582",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.064"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-672",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91166932936,
+                            52.77817218656
+                        ],
+                        [
+                            6.9117224736,
+                            52.77817055646
+                        ],
+                        [
+                            6.91172870329,
+                            52.77824573112
+                        ],
+                        [
+                            6.91167540278,
+                            52.77824724071
+                        ],
+                        [
+                            6.91166932936,
+                            52.77817218656
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-580",
+            "properties": {
+                "type": "way",
+                "id": "-580",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.063"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-670",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9117224736,
+                            52.77817055646
+                        ],
+                        [
+                            6.91177580966,
+                            52.7781691408
+                        ],
+                        [
+                            6.91178199461,
+                            52.77824422179
+                        ],
+                        [
+                            6.91172870329,
+                            52.77824573112
+                        ],
+                        [
+                            6.9117224736,
+                            52.77817055646
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-578",
+            "properties": {
+                "type": "way",
+                "id": "-578",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.062"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-668",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91177580966,
+                            52.7781691408
+                        ],
+                        [
+                            6.91182794554,
+                            52.77816749962
+                        ],
+                        [
+                            6.91183216589,
+                            52.7782115367
+                        ],
+                        [
+                            6.91183515401,
+                            52.77824271619
+                        ],
+                        [
+                            6.91178199461,
+                            52.77824422179
+                        ],
+                        [
+                            6.91177580966,
+                            52.7781691408
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-576",
+            "properties": {
+                "type": "way",
+                "id": "-576",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.069"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-666",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91144622646,
+                            52.77820524276
+                        ],
+                        [
+                            6.91144407368,
+                            52.77817933361
+                        ],
+                        [
+                            6.91151109578,
+                            52.77817729101
+                        ],
+                        [
+                            6.9115131437,
+                            52.7782032459
+                        ],
+                        [
+                            6.91144622646,
+                            52.77820524276
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-574",
+            "properties": {
+                "type": "way",
+                "id": "-574",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.067"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-664",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9115131437,
+                            52.7782032459
+                        ],
+                        [
+                            6.91151109578,
+                            52.77817729101
+                        ],
+                        [
+                            6.9115827129,
+                            52.77817523917
+                        ],
+                        [
+                            6.91158486248,
+                            52.77820127185
+                        ],
+                        [
+                            6.9115131437,
+                            52.7782032459
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-606",
+            "properties": {
+                "type": "way",
+                "id": "-606",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.035"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-662",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91226879034,
+                            52.77832695276
+                        ],
+                        [
+                            6.91227411159,
+                            52.77839146102
+                        ],
+                        [
+                            6.91219896678,
+                            52.77839364121
+                        ],
+                        [
+                            6.91216769252,
+                            52.77839445548
+                        ],
+                        [
+                            6.91216241628,
+                            52.77833015217
+                        ],
+                        [
+                            6.91226879034,
+                            52.77832695276
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-608",
+            "properties": {
+                "type": "way",
+                "id": "-608",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.033"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-660",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91237523133,
+                            52.7783238875
+                        ],
+                        [
+                            6.91238049783,
+                            52.7783883744
+                        ],
+                        [
+                            6.91227411159,
+                            52.77839146102
+                        ],
+                        [
+                            6.91226879034,
+                            52.77832695276
+                        ],
+                        [
+                            6.91237523133,
+                            52.7783238875
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-610",
+            "properties": {
+                "type": "way",
+                "id": "-610",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.032"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-658",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91242850037,
+                            52.77832214275
+                        ],
+                        [
+                            6.91243377514,
+                            52.77838682865
+                        ],
+                        [
+                            6.91238049783,
+                            52.7783883744
+                        ],
+                        [
+                            6.91237523133,
+                            52.7783238875
+                        ],
+                        [
+                            6.91242850037,
+                            52.77832214275
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-612",
+            "properties": {
+                "type": "way",
+                "id": "-612",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "0.031"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-656",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91258814575,
+                            52.77831760765
+                        ],
+                        [
+                            6.91259088865,
+                            52.77834980308
+                        ],
+                        [
+                            6.91259234725,
+                            52.77836647932
+                        ],
+                        [
+                            6.91259339032,
+                            52.77838219769
+                        ],
+                        [
+                            6.91243377514,
+                            52.77838682865
+                        ],
+                        [
+                            6.91242850037,
+                            52.77832214275
+                        ],
+                        [
+                            6.91258814575,
+                            52.77831760765
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-614",
+            "properties": {
+                "type": "way",
+                "id": "-614",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.01"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-654",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91259088865,
+                            52.77834980308
+                        ],
+                        [
+                            6.91258814575,
+                            52.77831760765
+                        ],
+                        [
+                            6.91260380513,
+                            52.77831707885
+                        ],
+                        [
+                            6.91260634879,
+                            52.77834921108
+                        ],
+                        [
+                            6.91259088865,
+                            52.77834980308
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-616",
+            "properties": {
+                "type": "way",
+                "id": "-616",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.03"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-652",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.9126093253,
+                            52.77838173537
+                        ],
+                        [
+                            6.91259339032,
+                            52.77838219769
+                        ],
+                        [
+                            6.91259234725,
+                            52.77836647932
+                        ],
+                        [
+                            6.91260770257,
+                            52.77836601949
+                        ],
+                        [
+                            6.9126093253,
+                            52.77838173537
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-572",
+            "properties": {
+                "type": "way",
+                "id": "-572",
+                "tags": {
+                    "buildingpart": "room",
+                    "name": "WK.0.02"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    },
+                    {
+                        "role": "outer",
+                        "rel": "-650",
+                        "reltags": {
+                            "type": "multipolygon"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            6.91259088865,
+                            52.77834980308
+                        ],
+                        [
+                            6.91260634879,
+                            52.77834921108
+                        ],
+                        [
+                            6.91260770257,
+                            52.77836601949
+                        ],
+                        [
+                            6.91259234725,
+                            52.77836647932
+                        ],
+                        [
+                            6.91259088865,
+                            52.77834980308
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/-648",
+            "properties": {
+                "type": "way",
+                "id": "-648",
+                "tags": {
+                    "buildingpart": "hall",
+                    "name": "Stenden"
+                },
+                "relations": [
+                    {
+                        "role": "shell",
+                        "rel": "-728",
+                        "reltags": {
+                            "level": "0",
+                            "name": "Begane Grond",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.91054973504,
+                        52.77818334224
+                    ],
+                    [
+                        6.91060296089,
+                        52.77818177873
+                    ],
+                    [
+                        6.91065618042,
+                        52.7781802154
+                    ],
+                    [
+                        6.91072716091,
+                        52.77817813035
+                    ],
+                    [
+                        6.91079774898,
+                        52.77817605682
+                    ],
+                    [
+                        6.91086909246,
+                        52.77817396111
+                    ],
+                    [
+                        6.91097565668,
+                        52.77817083078
+                    ],
+                    [
+                        6.91097036227,
+                        52.77810633661
+                    ],
+                    [
+                        6.91096507139,
+                        52.77804188521
+                    ],
+                    [
+                        6.91098328801,
+                        52.7780413405
+                    ],
+                    [
+                        6.91107163033,
+                        52.7780386989
+                    ],
+                    [
+                        6.91112496841,
+                        52.77803710399
+                    ],
+                    [
+                        6.91112756551,
+                        52.77806944828
+                    ],
+                    [
+                        6.91113015456,
+                        52.77810169226
+                    ],
+                    [
+                        6.9111327459,
+                        52.77813396478
+                    ],
+                    [
+                        6.9111353269,
+                        52.77816610854
+                    ],
+                    [
+                        6.91113843603,
+                        52.77820482959
+                    ],
+                    [
+                        6.9111405319,
+                        52.77823093141
+                    ],
+                    [
+                        6.91114569614,
+                        52.77829524667
+                    ],
+                    [
+                        6.911198989,
+                        52.77829367794
+                    ],
+                    [
+                        6.91125224191,
+                        52.77829211039
+                    ],
+                    [
+                        6.91130543613,
+                        52.77829054456
+                    ],
+                    [
+                        6.911358737,
+                        52.7782889756
+                    ],
+                    [
+                        6.91141195806,
+                        52.77828740898
+                    ],
+                    [
+                        6.91146513544,
+                        52.77828584365
+                    ],
+                    [
+                        6.91151835623,
+                        52.77828427704
+                    ],
+                    [
+                        6.91157166747,
+                        52.77828270777
+                    ],
+                    [
+                        6.91162482277,
+                        52.77828114309
+                    ],
+                    [
+                        6.91162268896,
+                        52.77824873369
+                    ],
+                    [
+                        6.91167540278,
+                        52.77824724071
+                    ],
+                    [
+                        6.91172870329,
+                        52.77824573112
+                    ],
+                    [
+                        6.91178199461,
+                        52.77824422179
+                    ],
+                    [
+                        6.91183515401,
+                        52.77824271619
+                    ],
+                    [
+                        6.91186915453,
+                        52.7786619964
+                    ],
+                    [
+                        6.91224182496,
+                        52.77865100364
+                    ],
+                    [
+                        6.91223908534,
+                        52.7786185315
+                    ],
+                    [
+                        6.91245687814,
+                        52.77861170671
+                    ],
+                    [
+                        6.91245414154,
+                        52.7785817264
+                    ],
+                    [
+                        6.91223650651,
+                        52.77858655288
+                    ],
+                    [
+                        6.9122260243,
+                        52.77845744556
+                    ],
+                    [
+                        6.91227891236,
+                        52.77845607673
+                    ],
+                    [
+                        6.91227676229,
+                        52.77842349735
+                    ],
+                    [
+                        6.91220164711,
+                        52.77842588228
+                    ],
+                    [
+                        6.91219896678,
+                        52.77839364121
+                    ],
+                    [
+                        6.91227411159,
+                        52.77839146102
+                    ],
+                    [
+                        6.91238049783,
+                        52.7783883744
+                    ],
+                    [
+                        6.91243377514,
+                        52.77838682865
+                    ],
+                    [
+                        6.91259339032,
+                        52.77838219769
+                    ],
+                    [
+                        6.9126093253,
+                        52.77838173537
+                    ],
+                    [
+                        6.91261160803,
+                        52.77841418838
+                    ],
+                    [
+                        6.91259681975,
+                        52.77841454948
+                    ],
+                    [
+                        6.91260691564,
+                        52.77854339335
+                    ],
+                    [
+                        6.91261449797,
+                        52.7786401588
+                    ],
+                    [
+                        6.91266772638,
+                        52.77863858371
+                    ],
+                    [
+                        6.91272089052,
+                        52.77863701053
+                    ],
+                    [
+                        6.91298702869,
+                        52.77862913521
+                    ],
+                    [
+                        6.91297747141,
+                        52.77851112157
+                    ],
+                    [
+                        6.91297660105,
+                        52.7785003743
+                    ],
+                    [
+                        6.91296874813,
+                        52.7784034058
+                    ],
+                    [
+                        6.91289651032,
+                        52.77840570754
+                    ],
+                    [
+                        6.91275595687,
+                        52.77841018604
+                    ],
+                    [
+                        6.91274788473,
+                        52.77831295694
+                    ],
+                    [
+                        6.91274252257,
+                        52.77824836939
+                    ],
+                    [
+                        6.91263625464,
+                        52.77825132096
+                    ],
+                    [
+                        6.91258287662,
+                        52.77825280353
+                    ],
+                    [
+                        6.91252967978,
+                        52.77825428107
+                    ],
+                    [
+                        6.9124231236,
+                        52.77825724065
+                    ],
+                    [
+                        6.91236985148,
+                        52.77825872027
+                    ],
+                    [
+                        6.9123673789,
+                        52.77822711617
+                    ],
+                    [
+                        6.91247403475,
+                        52.778224022
+                    ],
+                    [
+                        6.91247139956,
+                        52.77819170429
+                    ],
+                    [
+                        6.91246876787,
+                        52.77815942953
+                    ],
+                    [
+                        6.91245822928,
+                        52.77803018521
+                    ],
+                    [
+                        6.91219910065,
+                        52.7780387048
+                    ],
+                    [
+                        6.91227619637,
+                        52.77798627542
+                    ],
+                    [
+                        6.9127877888,
+                        52.77797105784
+                    ],
+                    [
+                        6.91312840683,
+                        52.77820077239
+                    ],
+                    [
+                        6.9135914622,
+                        52.77818704098
+                    ],
+                    [
+                        6.91358630204,
+                        52.77812513324
+                    ],
+                    [
+                        6.91336641157,
+                        52.77813162467
+                    ],
+                    [
+                        6.91335195328,
+                        52.77795105249
+                    ],
+                    [
+                        6.9131278091,
+                        52.77795738672
+                    ],
+                    [
+                        6.9128271442,
+                        52.77790460072
+                    ],
+                    [
+                        6.91260335931,
+                        52.77791132677
+                    ],
+                    [
+                        6.91260553189,
+                        52.77794076923
+                    ],
+                    [
+                        6.91221555067,
+                        52.77795203983
+                    ],
+                    [
+                        6.91212174529,
+                        52.77801255214
+                    ],
+                    [
+                        6.91211079893,
+                        52.77785437137
+                    ],
+                    [
+                        6.9120223158,
+                        52.77785639462
+                    ],
+                    [
+                        6.9120223158,
+                        52.77784388728
+                    ],
+                    [
+                        6.9119071956,
+                        52.77784528796
+                    ],
+                    [
+                        6.9119071956,
+                        52.77786092213
+                    ],
+                    [
+                        6.91182692225,
+                        52.77786147393
+                    ],
+                    [
+                        6.91182479379,
+                        52.77780960523
+                    ],
+                    [
+                        6.91153220074,
+                        52.7778188949
+                    ],
+                    [
+                        6.91153086617,
+                        52.77779989508
+                    ],
+                    [
+                        6.9110549847,
+                        52.77781396334
+                    ],
+                    [
+                        6.91105768757,
+                        52.77784559953
+                    ],
+                    [
+                        6.91100260792,
+                        52.77784726759
+                    ],
+                    [
+                        6.91094950764,
+                        52.77784887571
+                    ],
+                    [
+                        6.91084309622,
+                        52.77785209834
+                    ],
+                    [
+                        6.91073652672,
+                        52.77785532575
+                    ],
+                    [
+                        6.91063160983,
+                        52.77785850312
+                    ],
+                    [
+                        6.91063883614,
+                        52.77795476778
+                    ],
+                    [
+                        6.91062013054,
+                        52.77795574322
+                    ],
+                    [
+                        6.91061927051,
+                        52.77794963046
+                    ],
+                    [
+                        6.91058420126,
+                        52.77795063013
+                    ],
+                    [
+                        6.91053092811,
+                        52.77795214871
+                    ],
+                    [
+                        6.91047742156,
+                        52.77795367395
+                    ],
+                    [
+                        6.91048072899,
+                        52.7779972885
+                    ],
+                    [
+                        6.91048397475,
+                        52.77804008962
+                    ],
+                    [
+                        6.91048764737,
+                        52.77808851975
+                    ],
+                    [
+                        6.91054215657,
+                        52.77808666642
+                    ],
+                    [
+                        6.91054468382,
+                        52.77811890571
+                    ],
+                    [
+                        6.91054973504,
+                        52.77818334224
+                    ]
+                ]
+            }
+        }
+    ]
+}
