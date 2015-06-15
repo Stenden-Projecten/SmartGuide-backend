@@ -5,10 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
-<<<<<<< HEAD
-=======
         <link rel="stylesheet" href="leaflet.label.css">
->>>>>>> 1b2df8e6849ca7788fb4f2af9b3eee02e4c11af3
         <style>
             body {
                 padding: 0;
@@ -17,8 +14,6 @@
             html, body, #map {
                 height: 100%;
             }
-<<<<<<< HEAD
-=======
             .text-label {
                 border: none;
                 background: none;
@@ -26,7 +21,6 @@
             .text-label:before {
                 content: none;
             }
->>>>>>> 1b2df8e6849ca7788fb4f2af9b3eee02e4c11af3
         </style>
     </head>
     <body>
@@ -35,28 +29,11 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
         <script src="leaflet-indoor.js"></script>
-<<<<<<< HEAD
-=======
         <script src="leaflet.label.js"></script>
->>>>>>> 1b2df8e6849ca7788fb4f2af9b3eee02e4c11af3
         <script>
             var map = L.map("map",{
                 center: [52.77824, 6.91179],
                 zoom: 18,
-<<<<<<< HEAD
-                maxZoom: 21,
-            });
-
-            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            //L.imageOverlay("0.png", [[52.77863, 6.91045], [52.77777, 6.91305]]).addTo(map);
-
-             $.getJSON("data.json", function(geoJSON) {
-                var indoorLayer = new L.Indoor(geoJSON);
-                indoorLayer.addTo(map);
-=======
                 minZoom: 18,
                 maxZoom: 21,
             });
@@ -113,7 +90,6 @@
                 levelControl.addEventListener("levelchange", indoorLayer.setLevel, indoorLayer);
                 levelControl.addTo(map);
 
->>>>>>> 1b2df8e6849ca7788fb4f2af9b3eee02e4c11af3
              });
         </script>
     </body>
