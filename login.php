@@ -23,15 +23,17 @@
         session_start();
         if (isset($_POST['send']))
         {
-            $naam = $_POST['naam'];
-            $pass = $_POST['pass'];
-
+            
             if (empty($_POST['naam']) && empty($_POST['pass']))
             {
                 $berichtje = "Je moet alle velden invullen";
                 echo "<div id='berichtje'> ".$berichtje."</div>";
-            } else
+            }
+            else
             {
+            	$naam = mysql_escape_string($_POST['naam']);
+            	$pass =mysql_escape_string($_POST['pass']);
+
                 //database connectie maken   
                 $DBconnect = mysql_connect("localhost", "root", "") OR DIE("unable to connect");
                 $dbMessage = "could not find database: ";
@@ -48,38 +50,37 @@
                 if ($count == 1)
                 {
                     $_SESSION['naam'] = $naam;
-                    //$_SESSION['pass'] = $pass;
                     $berichtje = "Hallo " . ($_SESSION['naam']) . " ! ";
                     echo "<div id='berichtje'> " . $berichtje . "</div>";
-                } else
+                } 
+                else
                 {
                     echo "<div id='berichtje2'> " . "Er is een verkeerde gebruikersnaam of wachtwoord ingevuld..." . "</div>";
                 }
-
                 mysql_close();
             }
         }
         ?>
         <div class='form'>
-            <form method="post" action="login.php">
-                <table>
-                    <tr>
-                        <td>
-                        </td>
-                        <td>
-                            <input type="text" style="padding-left: 5px;" name="naam" placeholder="Gebruikersnaam" id="gebruiker"/>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                        </td>
-                        <td>
-                            <input type="password" style="padding-left: 5px;" name="pass" placeholder="Wachtwoord" id="wachtwoord"/> 
-                            <input type="submit" value="inloggen" name="send" id="submit"/>
-                        </td>
-                    </tr>
-                </table>
-            </form>
-        </div>
+		            <form method="post" action="login.php">
+		                <table>
+		                    <tr>
+		                        <td>
+		                        </td>
+		                        <td>
+		                            <input type="text" style="padding-left: 5px;" name="naam" placeholder="Gebruikersnaam" id="gebruiker"/>
+		                        </td>
+		                    </tr>
+		                    <tr>
+		                        <td>
+		                        </td>
+		                        <td>
+		                            <input type="password" style="padding-left: 5px;" name="pass" placeholder="Wachtwoord" id="wachtwoord"/> 
+		                            <input type="submit" value="inloggen" name="send" id="submit"/>
+		                        </td>
+		                    </tr>
+		                </table>
+		            </form>
+		        </div>";
     </body>
 </html>
