@@ -1,65 +1,81 @@
 <?php
 
+//kijken of er response is
 $response = array();
 $response["success"] = false;
 
+//database connectie maken via link naar db_connect.php
 require_once(__DIR__ . '/db_connect.php');
 $db = new DB_CONNECT();
 
-if($db->error !== null) {
-	$response["error"] = $db->error;
-} else {
-	$id = isset($_GET["ID"]) ? $_GET["ID"] : null;
+if ($db->error !== null)
+{
+    $response["error"] = $db->error;
+} else
+{
+    $id = isset($_GET["ID"]) ? $_GET["ID"] : null;
 
-	if($id == null) {
-		$response["error"] = "ID invoer verplicht";
-	} else {
-		$stmt = $db->con->prepare("SELECT QRCode.Tekst FROM QRCode WHERE ID = ?");
-		$stmt->bind_param("i", $id);
-		$stmt->execute();
-		$stmt->store_result();
-		$rows = $stmt->num_rows;
-		$stmt->bind_result($tekst);
-		$stmt->fetch();
-		$stmt->close();
+    if ($id == null)
+    {
+        $response["error"] = "ID invoer verplicht";
 
-		if($rows == 0) {
-			$response["error"] = "geen resultaten";
-		} else {
-			$response["tekst"] = $tekst;
+        //gegevens uit database halen en opslaan
+    } else
+    {
+        $stmt = $db->con->prepare("SELECT QRCode.Tekst FROM QRCode WHERE ID = ?");
+        $stmt->bind_param("i", $id);
+        $stmt->execute();
+        $stmt->store_result();
+        $rows = $stmt->num_rows;
+        $stmt->bind_result($tekst);
+        $stmt->fetch();
+        $stmt->close();
 
-			$stmt = $db->con->prepare("SELECT Leraar.Naam, (SELECT GROUP_CONCAT(Vak.Naam) FROM Vak, Vakken WHERE Vakken.Leraar = Leraren.Leraar AND Vak.ID = Vakken.Vak) AS GegevenVakken FROM Leraar, Leraren WHERE Leraren.QRCode = ? AND Leraar.ID = Leraren.Leraar");
-			$stmt->bind_param("i", $id);
-			$stmt->execute();
-			$stmt->bind_result($naam, $vakken);
+        if ($rows == 0)
+        {
+            $response["error"] = "geen resultaten";
+        } else
+        {
+            $response["tekst"] = $tekst;
 
-			$leraren = array();
-			while ($stmt->fetch()) {
-				$leraren[$naam] = $vakken;
-			}
+            //gegevens uit database halen en opslaan
+            $stmt = $db->con->prepare("SELECT Leraar.Naam, (SELECT GROUP_CONCAT(Vak.Naam) FROM Vak, Vakken WHERE Vakken.Leraar = Leraren.Leraar AND Vak.ID = Vakken.Vak) AS GegevenVakken FROM Leraar, Leraren WHERE Leraren.QRCode = ? AND Leraar.ID = Leraren.Leraar");
+            $stmt->bind_param("i", $id);
+            $stmt->execute();
+            $stmt->bind_result($naam, $vakken);
 
-			if(count($leraren) > 0) $response["leraren"] = $leraren;
+            $leraren = array();
+            while ($stmt->fetch())
+            {
+                $leraren[$naam] = $vakken;
+            }
 
-			$stmt->close();
+            if (count($leraren) > 0)
+                $response["leraren"] = $leraren;
 
-			$stmt = $db->con->prepare("SELECT Lokaal.Nummer, Lokaal.Functie FROM Lokaal, Lokalen WHERE Lokalen.QRCode = ? AND Lokaal.ID = Lokalen.Lokaal");
-			$stmt->bind_param("i", $id);
-			$stmt->execute();
-			$stmt->bind_result($nummer, $functie);
+            $stmt->close();
 
-			$lokalen = array();
-			while ($stmt->fetch()) {
-				$lokalen[$nummer] = $functie;
-			}
+            //gegevens uit database halen en opslaan
+            $stmt = $db->con->prepare("SELECT Lokaal.Nummer, Lokaal.Functie FROM Lokaal, Lokalen WHERE Lokalen.QRCode = ? AND Lokaal.ID = Lokalen.Lokaal");
+            $stmt->bind_param("i", $id);
+            $stmt->execute();
+            $stmt->bind_result($nummer, $functie);
 
-			if(count($lokalen) > 0) $response["lokalen"] = $lokalen;
+            $lokalen = array();
+            while ($stmt->fetch())
+            {
+                $lokalen[$nummer] = $functie;
+            }
 
-			$stmt->close();
+            if (count($lokalen) > 0)
+                $response["lokalen"] = $lokalen;
 
-			$response["success"] = true;
-		}
-	}
+            $stmt->close();
+
+            $response["success"] = true;
+        }
+    }
 }
-
+//aangeven dat datatype jason is en array omzetten in jsaon en uitprinten
 header("Content-type: application/json");
 echo json_encode($response);

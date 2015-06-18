@@ -3,9 +3,11 @@
 <html>
     <head>
         <title>addMessage</title>
+        <!-- opmaak link naar .css voor de php site -->
         <link href='opmaak.css' rel='stylesheet'>
     </head>
     <body>
+        <!-- div's en menu indeling met verwijzing naar de verscheidene php pages -->
         <div id='menu'>
             <ul>
                 <li>
@@ -21,6 +23,7 @@
         </div>
 
         <?php
+        //session starten en als naam niet ingevuld is terugkeren naar login pagina en session sluiten
         session_start();
         if (!isset($_SESSION['naam']))
         {
@@ -28,6 +31,8 @@
             exit;
         }
         ?>
+
+        <!-- de form voor het aanpassen van de velden, gegevens worden uit change_page.php gehaald -->
 
         <div class="form">
             <form method="post" action="change_page.php">

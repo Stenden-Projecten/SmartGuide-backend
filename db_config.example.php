@@ -1,7 +1,7 @@
 <?php
  
 /*
- * All database connection variables
+ * Alle database connectie variabeles
  */
  
 define('DB_USER', "root"); // db user
