@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 
 //kijken of er response is
