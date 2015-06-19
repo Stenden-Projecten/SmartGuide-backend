@@ -47,11 +47,14 @@
                     }
                     if (isset($_POST['add']))
                     {
-                        $Naam = $_POST['Naam'];
-                        echo $Naam;
-                        $query = "INSERT INTO leraar VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
-                        mysql_query($query) OR DIE(mysql_error());
-                        echo "De waarde is aan de tabel toegevoegd.";
+                    	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
+                    	{
+	                        $Naam = $_POST['Naam'];
+	                        echo $Naam;
+	                        $query = "INSERT INTO leraar VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
+	                        mysql_query($query) OR DIE(mysql_error());
+	                        echo "De waarde is aan de tabel toegevoegd.";
+                        }
                     }
                     if (isset($_POST['remove']))
                     {
@@ -79,11 +82,14 @@
                     }
                     if (isset($_POST['add']))
                     {
-                        $Naam = $_POST['Naam'];
-                        echo $Naam;
-                        $query = "INSERT INTO vak VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
-                        mysql_query($query) OR DIE(mysql_error());
-                        echo "De waarde is aan de tabel toegevoegd.";
+                    	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
+                    	{
+	                        $Naam = $_POST['Naam'];
+	                        echo $Naam;
+	                        $query = "INSERT INTO vak VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
+	                        mysql_query($query) OR DIE(mysql_error());
+	                        echo "De waarde is aan de tabel toegevoegd.";
+                    	}
                     }
                     if (isset($_POST['remove']))
                     {
@@ -111,12 +117,19 @@
                     }
                     if (isset($_POST['add']))
                     {
-                        $Naam = $_POST['Nummer'];
-                        $Nummer = $_POST['Naam'];
-                        echo $Naam;
-                        $query = "INSERT INTO lokaal VALUES(Null,'$Naam','$Nummer')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
-                        mysql_query($query) OR DIE(mysql_error());
-                        echo "De waarde is aan de tabel toegevoegd.";
+                    	if (isset($_POST['Naam']) && $_POST['Naam'] !== "" && isset($_POST['Nummer']) && $_POST['Nummer'] !== "") 
+                    	{
+                    		$Naam = $_POST['Nummer'];
+	                        $Nummer = $_POST['Naam'];
+	                        echo $Naam;
+	                        $query = "INSERT INTO lokaal VALUES(Null,'$Naam','$Nummer')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
+	                        mysql_query($query) OR DIE(mysql_error());
+	                        echo "De waarde is aan de tabel toegevoegd.";
+                    	}
+                        else
+                        {
+                        	echo "alles invullen";
+                        }
                     }
                     if (isset($_POST['remove']))
                     {
@@ -142,11 +155,14 @@
                     }
                     if (isset($_POST['add']))
                     {
-                        $Naam = $_POST['Naam'];
-                        echo $Naam;
-                        $query = "INSERT INTO qrcode VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
-                        mysql_query($query) OR DIE(mysql_error());
-                        echo "De waarde is aan de tabel toegevoegd.";
+                    	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
+                    	{
+	                        $Naam = $_POST['Naam'];
+	                        echo $Naam;
+	                        $query = "INSERT INTO qrcode VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
+	                        mysql_query($query) OR DIE(mysql_error());
+	                        echo "De waarde is aan de tabel toegevoegd.";
+                    	}
                     }
                     if (isset($_POST['remove']))
                     {
