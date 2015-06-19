@@ -259,7 +259,7 @@
                     break;
 
                 case 'Qrcode':
-                    $query = mysql_query("SELECT * FROM QRCode", $DBconnect);
+                    $query = mysql_query("SELECT * FROM qrcode", $DBconnect);
                     echo "<table id='t4' border='1'>";
                     echo "<tr id='trOut'><th id='thUp'>ID</th><th>Tekst</th><th></th><th></th><th></th></tr>";
                     while ($row = mysql_fetch_array($query))
