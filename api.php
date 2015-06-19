@@ -22,7 +22,7 @@ if ($db->error !== null)
         //gegevens uit database halen en opslaan
     } else
     {
-        $stmt = $db->con->prepare("SELECT QRCode.Tekst FROM QRCode WHERE ID = ?");
+        $stmt = $db->con->prepare("SELECT qrcode.Tekst FROM qrcode WHERE ID = ?");
         $stmt->bind_param("i", $id);
         $stmt->execute();
         $stmt->store_result();
@@ -39,7 +39,7 @@ if ($db->error !== null)
             $response["tekst"] = $tekst;
 
             //gegevens uit database halen en opslaan
-            $stmt = $db->con->prepare("SELECT Leraar.Naam, (SELECT GROUP_CONCAT(Vak.Naam) FROM Vak, Vakken WHERE Vakken.Leraar = Leraren.Leraar AND Vak.ID = Vakken.Vak) AS GegevenVakken FROM Leraar, Leraren WHERE Leraren.QRCode = ? AND Leraar.ID = Leraren.Leraar");
+            $stmt = $db->con->prepare("SELECT leraar.Naam, (SELECT GROUP_CONCAT(vak.Naam) FROM vak, vakken WHERE vakken.Leraar = leraar.Leraar AND vak.ID = vakken.Vak) AS GegevenVakken FROM leraar, leraren WHERE leraren.QRCode = ? AND leraar.ID = leraren.Leraar");
             $stmt->bind_param("i", $id);
             $stmt->execute();
             $stmt->bind_result($naam, $vakken);
@@ -56,7 +56,7 @@ if ($db->error !== null)
             $stmt->close();
 
             //gegevens uit database halen en opslaan
-            $stmt = $db->con->prepare("SELECT Lokaal.Nummer, Lokaal.Functie FROM Lokaal, Lokalen WHERE Lokalen.QRCode = ? AND Lokaal.ID = Lokalen.Lokaal");
+            $stmt = $db->con->prepare("SELECT lokaal.Nummer, lokaal.Functie FROM lokaal, lokalen WHERE lokalen.QRCode = ? AND lokaal.ID = lokalen.Lokaal");
             $stmt->bind_param("i", $id);
             $stmt->execute();
             $stmt->bind_result($nummer, $functie);
