@@ -1,3 +1,4 @@
+<?php require_once(__DIR__ . "/db_config.php"); ?>
 <!DOCTYPE>
 <html>
     <head>
@@ -18,8 +19,8 @@
             echo "Kon " . $Naam . " niet updaten, misschien zijn er lege velden";
         } else
         {
-            mysql_connect("localhost", "root", "");
-            mysql_select_db('smartguide') or die("Unable to select database");
+            mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD);
+            mysql_select_db(DB_DATABASE) or die("Unable to select database");
             //hier wordt de naam in de leraar tabel gezet
             $query = "UPDATE leraar SET Naam='$Naam' WHERE ID='$ID'";
             mysql_query($query) OR DIE(mysql_error());

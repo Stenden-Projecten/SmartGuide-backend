@@ -1,3 +1,4 @@
+<?php require_once(__DIR__ . "/db_config.php"); ?>
 <!DOCTYPE>
 <html>
     <head>
@@ -38,9 +39,9 @@
                 $pass = mysql_escape_string($_POST['pass']);
 
                 //database connectie maken   
-                $DBconnect = mysql_connect("localhost", "root", "") OR DIE("unable to connect");
+                $DBconnect = mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
                 $dbMessage = "could not find database: ";
-                mysql_select_db("smartguide", $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
+                $db = mysql_select_db(DB_DATABASE, $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
 
                 //hash het wachtwoord                
                 $pass = hash("md5", $_POST["pass"]);

@@ -1,3 +1,4 @@
+<?php require_once(__DIR__ . "/db_config.php"); ?>
 <!DOCTYPE>
 <html>
     <head>
@@ -25,9 +26,9 @@
         session_start();
         //session starten en connectie met smartguide database gaan maken, als database niet gevonden is dan komt een error
 
-        $DBconnect = mysql_connect("localhost", "root", "") OR DIE("unable to connect");
+        $DBconnect = mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
         $dbMessage = "could not find database: ";
-        $db = mysql_select_db("smartguide", $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
+        $db = mysql_select_db(DB_DATABASE, $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
 
         //controleren of naam, update, remove en add knoppen zijn ingedrukt
         //in de cases in de switch worden de waardes in de databse vervolgens ge update, van wat de gebruiker heeft ingevuld
