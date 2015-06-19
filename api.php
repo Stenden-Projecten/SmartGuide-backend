@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
 //kijken of er response is
@@ -77,6 +76,6 @@ if ($db->error !== null)
         }
     }
 }
-//aangeven dat datatype jason is en array omzetten in jsaon en uitprinten
+//aangeven dat datatype json is en array omzetten in json en uitprinten
 header("Content-type: application/json");
 echo json_encode($response);
