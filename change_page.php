@@ -26,7 +26,7 @@
         session_start();
         //session starten en connectie met smartguide database gaan maken, als database niet gevonden is dan komt een error
 
-        $DBconnect = mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
+        $DBconnect = @mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
         $dbMessage = "could not find database: ";
         $db = mysql_select_db(DB_DATABASE, $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
 

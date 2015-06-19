@@ -17,7 +17,7 @@
             echo "Kon " . $Tekst . " niet updaten, misschien zijn er lege velden";
         } else
         {
-            mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD);
+            @mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD);
             @mysql_select_db(DB_DATABASE) or die("Unable to select database");
             $query = "UPDATE qrcode SET Tekst='$Tekst' WHERE ID='$ID'";
             mysql_query($query) OR DIE(mysql_error());

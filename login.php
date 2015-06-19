@@ -39,7 +39,7 @@
                 $pass = mysql_escape_string($_POST['pass']);
 
                 //database connectie maken   
-                $DBconnect = mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
+                $DBconnect = @mysql_connect(DB_SERVER, DB_USER, DB_PASSWORD) OR DIE("unable to connect");
                 $dbMessage = "could not find database: ";
                 $db = mysql_select_db(DB_DATABASE, $DBconnect) OR DIE("<div id='berichtje'> " . $dbMessage . mysql_error() . "</div>");
 
