@@ -1,5 +1,5 @@
 <?php require_once(__DIR__ . "/db_config.php"); ?>
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <title>login</title>

@@ -1,5 +1,5 @@
 <?php require_once(__DIR__ . "/db_config.php"); ?>
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
     <head>
         <title>update database</title>
@@ -40,8 +40,8 @@
                 case 'leraar':
                     if (isset($_POST['update']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam =  mysql_real_escape_string($_POST['Naam']);
+                        $ID =  mysql_real_escape_string($_GET['ID']);
                         $query = "UPDATE leraar SET Naam='$Naam' WHERE ID = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
                         echo "De tabel is geupdated.";
@@ -50,8 +50,8 @@
                     {
                     	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
                     	{
-	                        $Naam = $_POST['Naam'];
-	                        echo $Naam;
+	                        $Naam =  mysql_real_escape_string($_POST['Naam']);
+	                        //echo $Naam;
 	                        $query = "INSERT INTO leraar VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
 	                        mysql_query($query) OR DIE(mysql_error());
 	                        echo "De waarde is aan de tabel toegevoegd.";
@@ -59,9 +59,9 @@
                     }
                     if (isset($_POST['remove']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
-                        //!waarom twee keer met ID?
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
+                        
                         $query = "DELETE FROM leraren WHERE Leraar = '$ID'";
                         $query2 = "DELETE FROM leraar WHERE Naam = '$Naam'";
                         $query3 = "DELETE FROM vakken WHERE Leraar = '$ID'";
@@ -75,8 +75,8 @@
                 case 'vak':
                     if (isset($_POST['update']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         $query = "UPDATE vak SET Naam='$Naam' WHERE ID = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
                         echo "De tabel is geupdated";
@@ -85,8 +85,8 @@
                     {
                     	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
                     	{
-	                        $Naam = $_POST['Naam'];
-	                        echo $Naam;
+	                        $Naam = mysql_real_escape_string($_POST['Naam']);
+	                        //echo $Naam;
 	                        $query = "INSERT INTO vak VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
 	                        mysql_query($query) OR DIE(mysql_error());
 	                        echo "De waarde is aan de tabel toegevoegd.";
@@ -94,8 +94,8 @@
                     }
                     if (isset($_POST['remove']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         $query = "DELETE FROM vakken WHERE Vak = '$ID'";
                         $query2 = "DELETE FROM vak WHERE Naam = '$Naam'";
                         mysql_query($query) OR DIE(mysql_error());
@@ -109,9 +109,9 @@
                     {
                         //Nummer
                         //functie
-                        $Naam = $_POST['Naam'];
-                        $Nummer = $_POST['Nummer'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $Nummer = mysql_real_escape_string($_POST['Nummer']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         $query = "UPDATE lokaal SET Functie='$Naam' , Nummer = '$Nummer' WHERE ID = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
                         echo "De tabel is geupdated";
@@ -120,9 +120,9 @@
                     {
                     	if (isset($_POST['Naam']) && $_POST['Naam'] !== "" && isset($_POST['Nummer']) && $_POST['Nummer'] !== "") 
                     	{
-                    		$Naam = $_POST['Nummer'];
-	                        $Nummer = $_POST['Naam'];
-	                        echo $Naam;
+                    		$Naam = mysql_real_escape_string($_POST['Nummer']);
+	                        $Nummer = mysql_real_escape_string($_POST['Naam']);
+	                        //echo $Naam;
 	                        $query = "INSERT INTO lokaal VALUES(Null,'$Naam','$Nummer')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
 	                        mysql_query($query) OR DIE(mysql_error());
 	                        echo "De waarde is aan de tabel toegevoegd.";
@@ -134,8 +134,8 @@
                     }
                     if (isset($_POST['remove']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         $query = "DELETE FROM lokaal WHERE ID = '$ID'";
                         //$query2 = "DELETE FROM lokalen WHERE QRCode = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
@@ -147,8 +147,8 @@
                 case 'qrcode':
                     if (isset($_POST['update']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         //echo $Naam . $ID;
                         $query = "UPDATE qrcode SET Tekst ='$Naam' WHERE ID = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
@@ -158,7 +158,7 @@
                     {
                     	if (isset($_POST['Naam']) && $_POST['Naam'] !== "") 
                     	{
-	                        $Naam = $_POST['Naam'];
+	                        $Naam = mysql_real_escape_string($_POST['Naam']);
 	                        echo $Naam;
 	                        $query = "INSERT INTO qrcode VALUES(Null,'$Naam')"; //INSERT INTO `leraar`(`ID`, `Naam`) VALUES ([value-1],[value-2])
 	                        mysql_query($query) OR DIE(mysql_error());
@@ -167,8 +167,8 @@
                     }
                     if (isset($_POST['remove']))
                     {
-                        $Naam = $_POST['Naam'];
-                        $ID = $_GET['ID'];
+                        $Naam = mysql_real_escape_string($_POST['Naam']);
+                        $ID = mysql_real_escape_string($_GET['ID']);
                         $query = "DELETE FROM qrcode WHERE ID = '$ID'";
                         $query2 = "DELETE FROM lokalen WHERE QRCode = '$ID'";
                         mysql_query($query) OR DIE(mysql_error());
