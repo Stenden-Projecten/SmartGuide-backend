@@ -6,6 +6,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css">
         <link rel="stylesheet" href="leaflet.label.css">
+        <link rel="stylesheet" href="leaflet-gps.min.css">
         <style>
             body {
                 padding: 0;
@@ -31,6 +32,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
         <script src="leaflet-indoor.js"></script>
         <script src="leaflet.label.js"></script>
+        <script src="leaflet-gps.min.js"></script>
         <script>
             var map = L.map("map", {
                 center: [52.77824, 6.91179],
@@ -54,6 +56,8 @@
                 maxZoom: 21
             }).addTo(map);
 
+            map.addControl(new L.Control.Gps());
+
             function getFeatureLevel(feature) {
                 if (feature.properties.relations.length === 0)
                     return null;
@@ -65,7 +69,7 @@
                 return buildingpart[0].reltags.level;
             }
 
-            $.getJSON("data.json", function (geoJSON) {
+            $.getJSON("data.json", function(geoJSON) {
                 var indoorLayer = new L.Indoor(geoJSON, {
                     getLevel: getFeatureLevel,
                     onEachFeature: function (feature, layer) {
@@ -114,7 +118,6 @@
                     $(".level-" + e.newLevel).show();
                 });
                 levelControl.addTo(map);
-
             });
         </script>
     </body>
